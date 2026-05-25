@@ -1,0 +1,1127 @@
+{
+  "agent_name": "伽马",
+  "personality": "",
+  "total_games": 42,
+  "wins": 22,
+  "losses": 20,
+  "lessons": [
+    {
+      "game_id": "game_20260522_175022_8b4a70",
+      "role": "witch",
+      "won": false,
+      "reflection": "作为女巫，我在这局游戏中过于保守，首夜没有选择盲救，且在后续也没有找到合适的毒药目标，导致好人阵营人数劣势。虽然我存活到了最后，但未能发挥女巫的控场作用，这是好人阵营失败的重要原因。",
+      "key_moments": [
+        "首夜面对首刀玩家未使用解药，错失了保全好人数量的机会。",
+        "两轮游戏内未能根据场上发言锁定狼人，导致双毒未用，好人惨败。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_191904_595362",
+      "role": "villager",
+      "won": false,
+      "reflection": "本局失败的核心原因在于第2天对艾普（预言家）的验人结果判断失误。在第1天我正确识别了德尔塔的冲锋狼身份并试图施压，但在第2天得知贝塔是金水后，未能及时调整心态，反而因为急于抗推贝塔而暴露了平民的急躁心态，导致被贝塔和泽塔反打成狼。作为平民，在预言家已报出金水的情况下，应优先服从验人逻辑，而非固执己见。",
+      "key_moments": [
+        "第1天发言时，我质疑了艾普与阿尔法的‘完美板子’，并准确指出了德尔塔的冲锋嫌疑，这为好人阵营提供了正确的逻辑方向。",
+        "第2天发言时，在艾普给贝塔发金水后，我依然试图通过施压贝塔来寻找狼坑，这种‘头铁’的行为直接导致我被贝塔反咬，失去了好人的信任。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_193634_3344ef",
+      "role": "witch",
+      "won": true,
+      "reflection": "首夜即被狼人杀害，导致我失去了使用解药和毒药的机会，这是最坏的开局。虽然我无法参与后续发言，但阿尔法（狼人）在首日对泽塔（狼人）的激进攻击，以及他在残局时生硬的悍跳预言家行为，严重暴露了狼队意图，反而帮助好人阵营（贝塔、艾普）理清了逻辑，最终导致狼队被全歼。",
+      "key_moments": [
+        "首夜被杀：作为女巫首夜阵亡，无法自救或使用毒药，直接导致好人阵营失去最强神职，游戏局势瞬间变为劣势。",
+        "狼队内讧与暴露：第1天阿尔法（狼人）为了做身份，过分攻击队友泽塔的口误，虽然成功抗推了泽塔，但这种过激的表演为后续的失败埋下了伏笔。",
+        "残局悍跳失败：第2天阿尔法在三人残局选择悍跳预言家发贝塔金水，但因逻辑生硬且复读，被贝塔和艾普识破并反打，最终狼人被投票出局。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_194633_6c3c8d",
+      "role": "seer",
+      "won": true,
+      "reflection": "本局游戏开局阶段，我作为预言家在泽塔发言激进的情况下选择报其金水，成功拉拢了攻击位的好人，并利用贝塔逻辑漏洞进行反打，确立了场上的好人逻辑基点。在残局三人局中，面对阿尔法的强势施压，我保持了冷静，报出艾普金水并与女巫艾普形成逻辑闭环，从而精准锁定了狼人阿尔法。",
+      "key_moments": [
+        "第1天起跳预言家并给泽塔发金水，利用贝塔的逻辑漏洞拉拢阿尔法站边，成功将贝塔（狼）抗推出局。",
+        "第2天三人残局中，面对阿尔法的施压，坚持报出艾普金水，配合女巫艾普的银水信息，形成铁逻辑链将阿尔法归票。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_195034_1b6f10",
+      "role": "seer",
+      "won": false,
+      "reflection": "这局游戏最大的败因在于首日对泽塔的盲目信任以及对贝塔的误判。贝塔虽然发言激进，但其攻击性暴露了身份，而泽塔作为狼人，利用我给的金水身份成功隐藏并在残局倒钩。在第二夜，我错误地再次查验已知的金水泽塔，导致未能及时发现阿尔法或验证其他存活玩家（如德尔塔），错失了锁定狼坑的关键信息。",
+      "key_moments": [
+        "第1天：盲目查验泽塔并发金水，导致泽塔获得‘铁好人’身份，并在后续利用该身份带队归票贝塔，混淆了视听。",
+        "第2夜：在局势紧张的情况下，选择查验已发过金水的泽塔而非未知身份的阿尔法或德尔塔，导致信息获取效率极低，最终输掉游戏。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_201038_00574e",
+      "role": "guard",
+      "won": false,
+      "reflection": "这局游戏最大的败因在于首日发言过于强势且逻辑不自洽，作为守卫在没有信息的情况下盲目指挥，导致被狼人（贝塔、德尔塔）抓住机会煽动好人（阿尔法、艾普）将我抗推。在必死局面下，我选择了不跳身份隐藏守卫，虽然保留了神职的隐蔽性，但未能成功穿平民衣服，导致好人阵营失去一个关键轮次，最终狼人控场获胜。",
+      "key_moments": [
+        "首日发言阶段：我试图通过强势发言盘逻辑，但未能给出有效信息且拒绝亮明身份，被贝塔和德尔塔利用作为攻击靶子，煽动全场票我。",
+        "被抗推决策：面对4票冲票，我判断跳守卫也无法扭转局势且可能暴露身份给狼人刀，选择隐忍不跳并投贝塔一票，但未能改变被放逐的结果。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_201436_1869ee",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "这局游戏失败的主要原因是队友贝塔首置位发言过于激进且逻辑混乱，导致被真预言家阿尔法抓住机会起跳并形成逻辑闭环，从而被全场抗推。我在白天虽然选择了顺势踩贝塔以隐藏身份，但在夜间决策上出现严重失误，第二夜错误地选择刀杀已经暴露身份的焦点牌泽塔（女巫），而忽略了此时场上唯一的模糊牌艾普和德尔塔，导致女巫在白天通过报平安夜身份进一步坐实了阿尔法的预言家身份，使我彻底失去生存空间。",
+      "key_moments": [
+        "第1天白天：贝塔首置位咆哮攻击后置位，阿尔法顺势起跳预言家发金水，逻辑完美压制，贝塔作为队友聊爆，我被迫跟票将其抗推。",
+        "第2天夜间：作为最后一只狼，我错误地判断局势，选择刀杀焦点牌泽塔（女巫），结果泽塔在白天报出平安夜信息，彻底锁死好人阵营逻辑，导致我失败。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_201501_806f84",
+      "role": "seer",
+      "won": false,
+      "reflection": "这局游戏的失败源于首日被狼人（泽塔）利用金水身份反客为主，导致我作为真预言家失去了对局势的掌控。我在第2天错误地重复查验了已发金水的泽塔（内心独白显示误以为首夜未查或想验证），浪费了关键的查验轮次，未能识别出深水狼德尔塔或煽动狼阿尔法，最终在好人逻辑混乱中被狼队冲票。",
+      "key_moments": [
+        "首日验人决策：虽然泽塔是好人，但发给发言强势的泽塔导致其过度控场，反而压制了我的发言空间，且未能有效识别出贝塔是因被抗推而心态崩坏的平民。",
+        "第2天查验失误：内心独白显示我决定查验德尔塔，但结果描述显示我再次查验了泽塔（或误报信息），这种重复查验金水的行为是预言家的大忌，直接导致好人阵营错失了排查狼坑的最后机会。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_202150_ff2373",
+      "role": "witch",
+      "won": true,
+      "reflection": "本局游戏作为女巫，我在首夜面对泽塔被杀的情况时，虽然内心有关于'首夜必救'的预设，但根据后续局势判断，我实际上选择了不救（或未成功救下），这导致第二日场上减员，局势一度紧张。在第二日的残局中，面对艾普和阿尔法的双预言家对跳，我能够准确识别出阿尔法发言中的攻击性漏洞和拉票意图，果断选择跳身份站边验我为金水的艾普，并成功说服贝塔归票狼人，最终带领好人阵营获胜。这次胜利验证了在残局中，通过'金水反水立警'来形成身份互证是打击悍跳狼的有效手段。",
+      "key_moments": [
+        "首夜决策：面对泽塔被刀，经过权衡决定不使用解药（或判断为自刀/骗药），导致泽塔死亡，但保留了双药进入第二天。",
+        "残局定标：在第二日4人局中，面对艾普和阿尔法的对跳，利用艾普验我为金水的信息，果断起跳女巫身份站边艾普，并通过逻辑击穿阿尔法的悍跳防线，锁定胜局。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_204713_9318b4",
+      "role": "hunter",
+      "won": false,
+      "reflection": "作为猎人，我在首日未能准确识别伊塔的悍跳狼身份，错误地站边了贝塔，导致好人阵营在首日投票中处于劣势。在残局阶段，我虽然识别出了艾普的划水行为，但未能有效组织好人将狼人德尔塔出局，反而被狼人利用投票规则处决。最终，我在死前开枪带走了阿尔法，但由于场上剩余狼人数量占优，且未能击中核心狼人德尔塔，导致游戏失败。",
+      "key_moments": [
+        "首日贝塔与伊塔互跳预言家，我基于力度逻辑站边贝塔，但未能看穿伊塔作为狼人的悍跳战术，导致好人阵营分裂。",
+        "次日双死后，场上局势混乱，我未能有效识别德尔塔的煽动狼身份，反而将注意力集中在划水的艾普身上，错失了抗推狼人的机会。",
+        "在残局被投票处决时，我选择带走阿尔法，但未能击中核心狼人德尔塔，导致狼人直接获胜。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260522_210901_d13125",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "本局游戏狼队（我、西塔、约塔）采取了完美的“倒钩”策略，成功利用好人之间的逻辑分歧（贝塔的暴躁vs德尔塔的理中客）将焦点转移至德尔塔，使其成为抗推位。我的决策在于迅速识别出艾普（预言家）起跳后的局势，果断放弃独立思考，顺势站边艾普并归票德尔塔，从而完美隐藏身份。夜间击杀决策上，团队最终选择刀掉伊塔（金水）而非贝塔，这一决策虽然冒险，但成功制造了混乱，并利用好人阵营的票型在白天获胜。",
+      "key_moments": [
+        "第1天艾普起跳预言家并发伊塔金水，我迅速调整策略，从攻击贝塔转为跟随阿尔法和艾普的逻辑，将矛头对准德尔塔，成功融入好人阵营。",
+        "第2天夜间讨论，我最初建议刀贝塔以压制焦点牌，但听取队友西塔和约塔的意见后，改刀伊塔（金水），这一决策成功破坏了好人的逻辑基点，直接导致狼人控票获胜。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260523_125224_a4a01c",
+      "role": "seer",
+      "won": true,
+      "reflection": "本局游戏作为预言家，首夜查验泽塔（狼人）并成功在白天利用其悍跳时的严重口误（先说金水后改查杀）将其放逐，决策逻辑清晰且执行坚决。然而，第2夜的复盘逻辑存在严重偏差，误将已死的贝塔和阿尔法混淆为对跳预言家，并错误地计划去验艾普，这表明在局势变化后未能及时更新场上信息，导致后续推理逻辑完全断裂。",
+      "key_moments": [
+        "首日警长竞选：泽塔悍跳发查杀但出现严重口误，我准确抓住漏洞，成功拉拢贝塔、阿尔法、德尔塔放逐泽塔。",
+        "第2夜逻辑混乱：在复盘时错误记忆场上局势，将已死亡的玩家视为对跳预言家，且未意识到泽塔（狼）已死，导致后续查验目标（艾普）的选择基于错误的逻辑假设。"
+      ],
+      "player_count": 0,
+      "role_config": "",
+      "rounds_played": 0,
+      "survived_to_end": false,
+      "final_status": "",
+      "winner": "",
+      "useful_takeaways": []
+    },
+    {
+      "game_id": "game_20260524_010736_6afbfa",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "本局失败的核心在于R1的悍跳策略失误。作为狼人，在队友伊塔被真预言家泽塔查杀的情况下，我盲目选择悍跳反咬泽塔，导致场上出现双查杀局面。虽然我成功拉拢了部分好人，但最终伊塔自爆暴露了狼队底牌，且我在R3残局中未能有效识别并利用艾普（女巫）与德尔塔的矛盾，导致被女巫归票出局。未来应更注重团队配合，避免在队友已被查杀时强行悍跳增加暴露面。",
+      "key_moments": [
+        "R1: 泽塔起跳预言家查杀伊塔，我（伽马）悍跳预言家反查杀泽塔，制造双查杀局势。",
+        "R2: 伊塔自爆，暴露狼队身份，导致场上局势对狼队极度不利。",
+        "R3: 残局中，艾普起跳女巫，德尔塔手持警徽，我未能成功拉拢德尔塔抗推艾普，最终被投出。"
+      ],
+      "player_count": 8,
+      "role_config": "狼人x3 / 预言家x1 / 平民x3 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "双查杀局中，后置位狼人悍跳需评估队友发言质量，若队友聊爆，悍跳收益极低。",
+        "残局中，利用警徽权（1.5票）的优势，应优先攻击起跳神职的玩家，拉拢无警徽的平民。",
+        "狼人夜间决策应优先击杀神职，尤其是预言家和女巫，以破坏好人逻辑链。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_011911_3f50eb",
+      "role": "witch",
+      "won": false,
+      "reflection": "首夜被刀且无法自救，导致双药浪费，这是最差的开局。R1遗言虽然鼓励了队友，但未能有效识别出狼队悍跳（泽塔）与倒钩（艾普）的配合，导致好人阵营在R2被假预言家艾普完全控场。R2艾普起跳时，我虽已离场，但若能更早通过贝塔的激进发言预判好人阵营的分裂，或许能在遗言中留下更多针对性的逻辑提示。R3之后，狼队利用金水逻辑成功抗推好人，这提醒我在未来即使首夜死亡，也要在遗言中更明确地警示好人警惕'完美金水局'和'抱团冲锋'。",
+      "key_moments": [
+        "首夜被刀，因房规无法自救，双药未用离场，导致好人失去最强神职。",
+        "R1泽塔悍跳预言家发西塔金水，贝塔强势打退，但R2艾普起跳并成功拉拢贝塔和伊塔，形成'铁三角'控场。",
+        "R3艾普连续发金水（伊塔、西塔、约塔），利用'完美金水局'逻辑抗推卡帕，好人阵营未能识别这是狼队抱团冲锋。",
+        "R4阿尔法试图盘伊塔是倒钩狼，但被艾普、伊塔、西塔联手反扑抗推，好人彻底失去轮次。"
+      ],
+      "player_count": 12,
+      "role_config": "女巫x1 / 狼王x1 / 守卫x1 / 猎人x1 / 平民x4 / 狼人x3 / 预言家x1",
+      "rounds_played": 5,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "女巫首夜死亡后，遗言的价值在于'排坑'和'预警'，应尽量指出可能的狼坑（如划水牌或过于激进牌），避免好人被带节奏。",
+        "警惕'铁三角'或'金水抱团'逻辑，狼队常利用此战术在残局控票，好人需独立思考，避免跟风。",
+        "当场上出现'完美金水局'（预言家连续验神职为金水）时，大概率是狼队剧本，好人应优先质疑预言家身份。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_012622_bbbe20",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "本局胜利主要归功于队友德尔塔的完美倒钩和女巫艾普的致命失误（首夜不救且未毒中狼人）。我作为悍跳狼，虽然成功制造了混乱，但在R1白天过早暴露攻击性（踩女巫），导致自己成为焦点，若非女巫站边逻辑崩盘，我极大概率首日被抗推。未来需更注重悍跳后的身份隐藏，而非一味制造对立。",
+      "key_moments": [
+        "R1夜狼队内部决策：最终选择刀泽塔，虽然泽塔遗言给好人提供了警示，但客观上制造了死金逻辑。",
+        "R1警上悍跳：给贝塔发查杀，试图压制前置位发言，但力度过猛，导致后续被女巫针对。",
+        "R1白天局势逆转：女巫艾普起跳并强势归票我，但德尔塔通过倒钩成功将水搅浑，利用贝塔的划水发言将其打成抗推位。",
+        "R2夜击杀：狼队成功击杀女巫艾普，彻底瓦解了好人核心逻辑，锁定胜局。"
+      ],
+      "player_count": 6,
+      "role_config": "平民x2 / 狼人x2 / 女巫x1 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "倒钩狼的价值：在小局中，一匹狼悍跳，另一匹狼倒钩往往是最佳配置。倒钩狼（德尔塔）只需站边真预言家并指出逻辑漏洞，即可轻松隐藏。",
+        "死金逻辑的双刃剑：刀中预言家金水虽然坐实了预言家身份，但也让狼队失去了抗推预言家的机会。除非能确信女巫不救或能通过悍跳颠覆逻辑，否则应避免刀中金水。",
+        "划水玩家的危害：贝塔作为平民划水，最终被狼队利用成为抗推位。好人玩家必须清晰表达逻辑，否则容易被狼队'借刀杀人'。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_014446_e0e614",
+      "role": "villager",
+      "won": false,
+      "reflection": "本局作为平民，我在R1正确识别了贝塔的预言家面，但在R2被贝塔悍跳发金水的虚假信息干扰，未能坚持逻辑推演。我过分依赖'金水'这一表面逻辑，忽略了贝塔首日跟票的巨大逻辑漏洞，导致投票失误。未来在残局中，应更坚定地基于行为逻辑而非口头验人信息来站边，警惕狼人利用'发金水'进行控场。",
+      "key_moments": [
+        "R1投票：基于贝塔给阿尔法发金水的力度，站边贝塔放逐艾普，逻辑正确。",
+        "R2发言：敏锐指出了贝塔首日跟票艾普的异常行为，怀疑其为狼踩狼板子。",
+        "R2投票：面对贝塔悍跳发给我的金水，未能保持怀疑，反而因'被拉票'的动摇而选择反向投票泽塔，导致好人阵营分裂，狼人贝塔控场获胜。"
+      ],
+      "player_count": 6,
+      "role_config": "预言家x1 / 狼人x2 / 平民x2 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "狼人悍跳新套路：狼人可能会在局势混乱时（如R2），通过给核心平民或焦点玩家发金水来拉拢分票，此时需警惕其'无中生有'的验人信息。",
+        "票型分析的重要性：首日票型中，唯一对立面（如贝塔）往往是身份最高或最低的，若其存活且逻辑有硬伤，大概率是狼队留下的'悍跳位'。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_020528_068980",
+      "role": "witch",
+      "won": false,
+      "reflection": "首夜平安夜未使用解药，导致艾普（猎人）在R2死亡且未开枪，好人阵营损失惨重。R2虽起跳女巫报出平安夜信息，但未能有效识别狼队（泽塔）的冲锋意图，反而因站边卡帕间接促成了狼队控票。R3盲毒艾普（猎人）是重大失误，未能利用毒药制裁场上的焦点狼人（泽塔或贝塔），导致好人失去最后的翻盘筹码。",
+      "key_moments": [
+        "R1 Night: 首夜平安夜未使用解药，导致猎人艾普R2死亡且未发动技能。",
+        "R2 Day: 起跳女巫报平安夜，但被泽塔的激进发言带偏节奏，未能有效组织好人归票。",
+        "R3 Night: 盲毒艾普（猎人），不仅浪费了毒药，还误杀了神职，直接导致好人崩盘。"
+      ],
+      "player_count": 12,
+      "role_config": "狼人x4 / 猎人x1 / 平民x4 / 女巫x1 / 预言家x1 / 白痴x1",
+      "rounds_played": 5,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "平安夜不等于最优解：首夜女巫被刀无法自救时，救神（如猎人）通常优于留药，因为神职的技能发动对好人收益更大。",
+        "警惕'冲锋狼'：对于首日发言极其强势、不盘逻辑只打人的玩家（如泽塔），女巫应优先考虑毒杀或号召归票，不能让其控场。",
+        "盲毒的代价：在没有明确验人信息或铁狼逻辑时，女巫严禁盲毒，尤其是当场上已有神职倒牌时。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_025229_7d53a8",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "本局R1悍跳时机选择失误，在真预言家（阿尔法）逻辑闭环且女巫已起跳的强势局面下强行起跳，导致自己成为焦点并早早出局，未能为狼队做出更多贡献。好在队友德尔塔在R3残局果断利用白狼王技能带走警徽（西塔），直接破坏了好人的归票逻辑，这是获胜的关键一击。未来需更敏锐地评估场上形势，在好人阵营逻辑严密时应优先选择倒钩或深水，而非盲目悍跳。",
+      "key_moments": [
+        "R1悍跳失败：在真预言家阿尔法报出金水且女巫拉姆达起跳报平安夜的强势局面下，我选择悍跳发查杀，结果被猎人卡帕和女巫拉姆达识破，导致R1被抗推。",
+        "R3白狼王自爆带警徽：R3残局中，队友德尔塔（白狼王）在白天发言阶段果断自爆，带走了持有警徽的平民西塔，直接打乱了好人阵营的部署，锁定了胜局。"
+      ],
+      "player_count": 12,
+      "role_config": "预言家x1 / 平民x4 / 狼人x3 / 猎人x1 / 守卫x1 / 白狼王x1 / 女巫x1",
+      "rounds_played": 4,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "识别'铁逻辑'闭环：当场上出现'预言家起跳+金水+女巫报平安夜'的组合时，好人阵营信任度极高，此时悍跳狼极易被集火，应避其锋芒。",
+        "警徽的价值：在残局中，警徽不仅是1.5票，更是好人逻辑的基点。作为狼人，若能通过自爆或击杀带走警徽，对好人团队的破坏力远大于单纯击杀一名平民。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_032515_143751",
+      "role": "seer",
+      "won": false,
+      "reflection": "本局作为预言家，首夜查杀狼人泽塔并成功起跳，但未能有效利用警徽流拉票，导致被悍跳狼反杀。主要败因在于未能识别并拉拢场上的强神牌（如女巫、猎人），且在发言中过于关注划水牌，给了狼队利用“想赢心态”冲锋的空间。R2被抗推后，未能通过遗言有效归票，导致好人阵营在后续轮次中陷入混乱。未来需更注重对场风和玩家心态的把控，而非单纯依赖验人逻辑。",
+      "key_moments": [
+        "R1首夜查验泽塔为狼人，但起跳发言未能压制泽塔的悍跳，导致警徽流失。",
+        "R1白天投票阶段，未能有效识别并拉拢女巫、猎人等强神，导致被狼队冲票抗推。",
+        "R2被抗推后，遗言未能明确归票目标，导致好人阵营在后续轮次中失去方向。",
+        "R4猎人西塔开枪带走艾普，导致好人阵营彻底崩盘，狼队屠边胜利。"
+      ],
+      "player_count": 12,
+      "role_config": "平民x4 / 猎人x1 / 预言家x1 / 白痴x1 / 女巫x1 / 狼人x4",
+      "rounds_played": 4,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "当狼队悍跳并发金水拉票时，预言家应优先攻击其逻辑漏洞，而非单纯依赖验人信息。",
+        "在残局中，若猎人起跳但游戏未结束，应优先怀疑其身份，避免被狼队控场。",
+        "平民在预言家倒牌后，应通过分析票型和发言逻辑来归票，而非盲目跟随警徽。",
+        "女巫在首夜被刀时，应优先使用解药保神职轮次，而非追求平安夜信息优势。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_034745_a1976e",
+      "role": "villager",
+      "won": true,
+      "reflection": "本局作为平民，我在R1和R2成功识别并站边真预言家伊塔，逻辑判断准确。但在R3面对缪试图抗推预言家的暴论时，虽然内心坚定，但未能更早地组织好人进行防御性归票。R4伊塔倒牌后，局势明朗，我作为平民在残局的控场和归票意识有待加强，需更主动地带领好人锁定胜局。",
+      "key_moments": [
+        "R1 站边伊塔：准确识别伊塔后置位起跳发查杀的力度，并在发言中指出了贝塔的激进和卡帕的配合嫌疑，为好人阵营奠定了正确的逻辑基点。",
+        "R2 识别狼人逻辑漏洞：在泽塔试图通过攻击预言家'战绩'（警徽、双神倒牌）来洗脱嫌疑时，我明确指出这是偷换概念，坚持归票泽塔。",
+        "R3 抵制狼人搅局：面对缪利用'好人崩盘'的逻辑攻击伊塔，我坚持认为预言家逻辑连贯，并号召好人不要动摇，防止了狼人抗推预言家的战术成功。"
+      ],
+      "player_count": 12,
+      "role_config": "狼人x4 / 白痴x1 / 预言家x1 / 平民x4 / 猎人x1 / 女巫x1",
+      "rounds_played": 4,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "站边逻辑要坚定：一旦确定真预言家，面对狼人的各种搅局话术（如攻击战绩、拉踩金水），要保持逻辑定力，不要轻易动摇。",
+        "关注狼人的'垂死挣扎'：狼人在被查杀或即将出局时，往往会通过攻击预言家的'软肋'（如没拿到警徽、神职倒牌）来混淆视听，识别这一点有助于快速锁定狼坑。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_040535_e9976c",
+      "role": "villager",
+      "won": true,
+      "reflection": "本局虽然获胜，但我作为平民在R2的发言存在严重失误。面对贝塔强势的女巫跳法和艾普的预言家身份，我试图通过'不敢动双神'的理中客逻辑来寻找狼坑，结果反而被贝塔攻击为'想躲后面'的狼。这提醒我，在好人阵营优势极大且双神明牌的情况下，平民应无条件站边真神，而不是试图通过'找漏洞'来表现逻辑，这容易被狼队利用或被真神误伤。",
+      "key_moments": [
+        "R1竞选警徽：作为首置位平民，我选择低调起跳并承诺退水，成功为真预言家艾普让路，未造成好人票型分流。",
+        "R2发言失误：在双神（艾普、贝塔）逻辑已经做好的情况下，我试图通过'不敢动警长和女巫'来盘狼坑，这种过于谨慎的发言被贝塔认定为狼心态，差点导致好人内讧。"
+      ],
+      "player_count": 9,
+      "role_config": "狼人x3 / 预言家x1 / 平民x3 / 女巫x1 / 猎人x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "当场上出现强势女巫带队时，平民的最佳策略是'示弱'而非'讲理'。任何试图分析女巫行为的逻辑（即使是对的）都可能被视为挑衅。",
+        "在残局或关键轮次，如果自己身份不清（如平民），应优先通过'票型'和'心路历程'来表水，而不是通过'盘逻辑'来攻击他人，后者容易引起神职的怀疑。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_041539_e14126",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "R1投票阶段给队友泽塔冲票是导致我身份做坏的关键失误，在真预言家已死且警长强势归票的情况下，与狼队友绑定必死无疑。R3残局面对贝塔（猎人）和伊塔（警长）的盘问，虽然成功利用伊塔的逻辑漏洞将自己洗白，但最终未能抗推掉德尔塔，且在最后时刻的自爆决策过于保守，未能利用自爆打断猎人可能的带人节奏，错失了通过夜间刀猎人获胜的良机。",
+      "key_moments": [
+        "R1投票给泽塔（狼队友），导致在真预言家死后被伊塔和艾普定义为'狼队抱团'，成为焦点牌。",
+        "R3残局发言中，利用伊塔认为'伽马R2改票出泽塔不像狼'的逻辑，成功将自己从狼坑中洗出，并拉拢伊塔归票德尔塔。",
+        "R3最后时刻选择不自爆，试图在白天抗推德尔塔，但未能说服贝塔（猎人），最终被归票出局，导致狼队输掉比赛。"
+      ],
+      "player_count": 9,
+      "role_config": "狼人x3 / 平民x3 / 猎人x1 / 预言家x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "当警长和真预言家逻辑强势时，狼人的生存优先级高于控场，任何试图'带队'或'冲票'的行为都会加速灭亡。",
+        "在猎人存活的残局中，狼人的最优解往往是自爆后刀猎人，利用枪口带死好人核心（如警长），而非在白天通过发言去博取猎人的信任。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_145341_60028d",
+      "role": "villager",
+      "won": true,
+      "reflection": "本局R1我通过识别泽塔的'冲锋'行为，正确站边了贝塔（真预言家），并在R2成功抗推了悍跳狼艾普，逻辑判断准确。但在R3残局中，面对艾普（狼王）的强势归票，我虽然进行了逻辑反驳，但未能完全压制其控场，险些被抗推。这提醒我在残局必须更果断地拉拢第三方，而非仅进行逻辑辩驳。",
+      "key_moments": [
+        "R1投票阶段，我利用泽塔在贝塔发言前急于站边的逻辑漏洞，决定将票投给被冲锋的贝塔，这一判断为好人阵营赢得了关键的警徽。",
+        "R2面对拿着警徽的悍跳狼贝塔，我作为平民敢于率先发难，指出其逻辑矛盾，带动了好人将其归票。",
+        "R3三民残局，我敏锐地抓住了艾普（狼王）只针对我而忽略约塔的控场漏洞，通过拉票约塔成功化解了狼人的屠民计划。"
+      ],
+      "player_count": 9,
+      "role_config": "狼人x3 / 预言家x1 / 平民x3 / 猎人x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "当场上出现'互查杀'局面时，观察第三方的站边速度和力度往往比听对跳双方的发言更能判断狼坑（如本局泽塔的急躁站边直接暴露了狼队战术）。",
+        "平民在残局时，若自身身份未坐实，应将攻击重点放在'控场者'的逻辑漏洞上，并积极向未被针对的玩家示好，以争取票数。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_152419_e43dec",
+      "role": "villager",
+      "won": false,
+      "reflection": "本局作为平民，我在R1准确识别了贝塔的悍跳行为并坚定站边真预言家西塔，逻辑判断无误。然而，R2面对狼队（阿尔法、德尔塔）的集体倒钩和逻辑伪装时，我未能及时调整心态，过于依赖R1的既定印象，导致在R2的发言中未能有效组织好人反击，最终被狼队控场。这暴露了我在面对狼队激进做身份（如金水叛票、冲锋狼认错）时的应变能力不足，以及作为平民在残局缺乏足够号召力统一票型的短板。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1投票阶段：准确识别贝塔的悍跳逻辑漏洞，坚定投票给真预言家西塔，并在发言中点出贝塔、阿尔法、德尔塔的狼坑嫌疑。",
+        "R2局势判断：面对阿尔法（金水叛票）和德尔塔（冲锋狼认错）的强势洗白，我未能第一时间识破这是狼队的集体战术，导致在后续发言中处于被动。",
+        "R2发言失误：在R2发言中，我虽然指出了贝塔的狼面，但未能有效反驳阿尔法和德尔塔的伪逻辑，导致好人票型被分流，狼队控场成功。",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 9,
+      "role_config": "猎人x1 / 女巫x1 / 狼人x3 / 预言家x1 / 平民x3",
+      "rounds_played": 3,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "当场上出现'金水+叛票'组合时，优先怀疑其做身份的可能性，而非盲目认可其'好人'身份。",
+        "在狼队集体倒钩时，平民应优先攻击逻辑最薄弱的一环（如德尔塔的强行站边），而非试图同时对抗多张强势牌。",
+        "R2发言应更注重'拉票'而非'辩解'，通过明确归票目标来团结好人，而非陷入与狼队的逻辑纠缠。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_154034_952871",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "本局狼队惨败的核心在于R1的战术选择失误。面对阿尔法强势起跳，我选择了深水倒钩，但队友泽塔悍跳且发言糟糕，导致狼队过早暴露且无人能打平衡。R1未悍跳导致好人逻辑链完整，R2/R3虽然刀口正确（女巫），但队友接连自爆打乱轮次，最终我在残局被铁逻辑包围，自爆也无力回天。深水狼在队友悍跳失败时，缺乏独立的反击手段是致命的。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1 Day: 选择不悍跳并退水，导致阿尔法预言家身份无对冲，轻松控场。",
+        "R1 Vote: 投票给阿尔法（真预言家），试图倒钩，但队友泽塔被抗推，身份未做高。",
+        "R2 Night: 坚持刀女巫（艾普），判断其无药，试图破坏好人视野。",
+        "R3 Day: 面对阿尔法、西塔、德尔塔的铁三角逻辑，发言空间被锁死，被迫自爆。",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 9,
+      "role_config": "狼人x3 / 预言家x1 / 平民x3 / 女巫x1 / 猎人x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "当队友悍跳发言极差（如泽塔）时，后置位狼人必须起跳神职或预言家进行对冲，即便送死也要打乱好人心态。",
+        "R1投票给真预言家（倒钩）在队友出局后会成为原罪，不如冲票搏一搏或者分票制造混乱。",
+        "面对'预言家+女巫'双神明牌且逻辑闭环的局面，狼人唯一的胜机是穿神衣（如假女巫）骗毒或骗推，不能硬扛平民身份。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_160735_4dff73",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "本局作为狼人，我的深水策略在队友悍跳失败后彻底失效。R1我选择不悍跳并跟随队友投票给悍跳狼，试图在R2倒钩，但R2面对女巫和警长的强势逻辑，我因无法解释为何不盘悍跳狼（德尔塔）而被迫自爆。这暴露了在队友悍跳面极差时，单一深水策略无法生存，必须起跳搅局或穿神衣。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1上警阶段选择退水并投票给悍跳狼德尔塔，试图在R2倒钩",
+        "R2面对女巫艾普和警长贝塔的强势归票，因无法解释R1票型逻辑被迫自爆",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 9,
+      "role_config": "狼人x3 / 女巫x1 / 平民x3 / 猎人x1 / 预言家x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_172740_5b5484",
+      "role": "villager",
+      "won": true,
+      "reflection": "本局作为平民，R1准确识别出泽塔（预言家）与贝塔（狼人）的对跳逻辑，并果断站边真预言家，为好人阵营奠定了胜利基础。R2在女巫倒牌后，迅速通过排除法锁定最后一狼德尔塔，逻辑清晰且表水充分，展现了良好的残局处理能力。虽然最终胜利主要归功于神职的强势发挥和狼队的自爆，但我作为平民在局势混乱时保持了冷静，未给狼队可乘之机。",
+      "key_moments": [
+        "R1投票阶段：在阿尔法站边贝塔、局势不明朗的情况下，基于泽塔的查杀力度和贝塔的情绪化反击，坚定地将票投给泽塔，帮助真预言家拿到警徽。",
+        "R2发言阶段：在女巫艾普死亡后，迅速梳理场上逻辑，明确指出德尔塔是唯一的狼坑，并呼吁全票出德尔塔，防止了狼人可能的偷袭或煽动。"
+      ],
+      "player_count": 6,
+      "role_config": "平民x2 / 女巫x1 / 狼人x2 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "当女巫跳出来报银水并站边预言家时，这通常是铁逻辑，平民应无条件跟随，除非有确凿的反面证据。",
+        "在残局（3人局）中，若预言家存活且逻辑清晰，平民的任务是'表水'和'归票'，只需复述逻辑并站边，无需过度分析以免给狼人可乘之机。",
+        "警惕'冲锋狼'队友的倒钩：R1站边查杀狼（如阿尔法站边贝塔）的玩家，若在R2未改口或逻辑崩塌，大概率是狼队友或被利用的平民。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_173858_fa7e86",
+      "role": "villager",
+      "won": true,
+      "reflection": "本局R1我准确识别了泽塔的倒钩逻辑并站边真预言家贝塔，但在R2因被狼队夜间击杀而未能参与残局博弈。虽然最终获胜，但我对场上身份的判断存在偏差：误将冲锋狼阿尔法视为好人，且未能识别出德尔塔的女巫身份。这提醒我在未来的对局中，不能仅凭发言的'逻辑感'去定身份，必须结合票型和收益进行更严谨的狼坑排查。",
+      "key_moments": [
+        "R1投票给贝塔，支持真预言家当选警长",
+        "R2夜间死亡，未能在白天参与对阿尔法和德尔塔的身份排查"
+      ],
+      "player_count": 6,
+      "role_config": "平民x2 / 预言家x1 / 狼人x2 / 女巫x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "平民在R1的投票权至关重要，当场上出现'查杀'且对跳双方逻辑力度悬殊时，应果断站边力度大的一方。",
+        "在残局（3人局）中，若持警徽者强行归票且忽略排查第三方身份，这通常是狼人急于结束游戏的信号。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_175519_2924a7",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "本局作为狼人，虽然R1成功倒钩并存活至R2，但整体战略在R1即宣告失败。核心问题在于面对队友泽塔极其糟糕的悍跳发言时，我选择了'深水倒钩'而非'对冲搅局'，导致好人阵营（艾普、阿尔法）轻松形成逻辑闭环，狼队失去了唯一的生存空间。R2试图通过刀民制造'民坑'的操作，在双神坐镇的局势下属于垂死挣扎，无法逆转R1埋下的败局。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1警上：队友泽塔悍跳预言家查杀贝塔，但发言极差被艾普反咬，我选择站边艾普投票，虽然暂时洗白，但放弃了制造好人分歧的机会。",
+        "R2夜间：在双神（预言家、女巫）明牌的情况下，选择刀民德尔塔而非搏杀神职，试图在白天抗推最后一张民牌，但最终失败。",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "平民x2 / 狼人x2 / 预言家x1 / 女巫x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "深水狼的生存依赖于'狼坑'的完整性，当队友（泽塔）发言爆炸成为焦点时，必须与其切割或起跳对冲，不能被动接受'倒钩'身份。",
+        "在双神（预言家+女巫）起跳且互认的板子中，狼人若不穿神衣，基本没有生存空间。R1若能穿女巫衣服对跳阿尔法，或许能博取一线生机。",
+        "R2夜间决策：在劣势局（1狼对多神民）下，刀神职是唯一的翻盘点，刀民只是延缓失败。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_181732_ce28ed",
+      "role": "villager",
+      "won": true,
+      "reflection": "本局R1站边悍跳狼泽塔并投出警长票，虽然最终依靠队友（贝塔、艾普）的正确发挥获胜，但我的核心判断逻辑是错误的。泽塔后置位反手发查杀虽然力度大，但贝塔首日查杀阿尔法且后续阿尔法自爆，证明贝塔才是真预言家。作为平民，不能仅凭发言气势（'力度'）站边，必须结合后续票型和自爆行为进行逻辑纠偏，R2我已死亡，未能参与对阿尔法的归票，属于躺赢局。",
+      "key_moments": [
+        "R1 Sheriff Vote: 投票给泽塔（悍跳狼），理由是后置位起跳且反查杀力度大，忽视了贝塔先手查杀的收益。",
+        "R1 Sheriff Election: 贝塔起跳查杀阿尔法，泽塔后置位反手查杀贝塔，我选择站边泽塔。",
+        "R1 Wolf Self-destruct: 德尔塔自爆，此时场上形势对好人有利，但我未及时复盘贝塔的真实性。",
+        "R2 Night: 我死亡，未能参与R2对阿尔法的归票，游戏结束。"
+      ],
+      "player_count": 6,
+      "role_config": "平民x2 / 狼人x2 / 预言家x1 / 女巫x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "识别'反水狼'：当被查杀者（阿尔法）不仅不自辩，反而给查杀真预言家的悍跳狼（泽塔）上票，这是典型的狼队战术，此时真预言家（贝塔）的面无限大。",
+        "力度与逻辑的平衡：后置位起跳确实有信息优势，但不能迷信'力度'。当先手查杀逻辑通顺且后续有狼人自爆验证时，应优先信任先手查杀。",
+        "平民的票型责任：R1投错票给悍跳狼虽然未导致失败，但在竞技层面是重大失误，未来需更谨慎地分析'查杀'与'被查杀'者的互动关系。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_190621_b44178",
+      "role": "villager",
+      "won": true,
+      "reflection": "本局虽胜，但R1站边逻辑存在严重瑕疵。我因艾普发我金水且攻击阿尔法力度大便盲目站边，忽略了阿尔法首验贝塔（已知牌）发金水的逻辑漏洞。作为平民，被发金水后应警惕'被拉拢'的快感，重点分析'查杀'与'金水'的收益比，而非仅凭情绪化发言定狼。贝塔的倒钩行为成功误导我将狼坑排错，未来需更关注票型异常。",
+      "key_moments": [
+        "R1警上：艾普起跳发我金水并查杀阿尔法，阿尔法起跳发贝塔金水，逻辑平庸。",
+        "R1投票：我因被发金水且认为贝塔攻击德尔塔像找抗推，决定站边艾普。",
+        "R1讨论：贝塔（狼）倒戈站边艾普，利用'金水叛票'逻辑做高身份，我未能识别。",
+        "R2入夜：阿尔法自爆，狼队崩盘，好人获胜。"
+      ],
+      "player_count": 6,
+      "role_config": "女巫x1 / 狼人x2 / 预言家x1 / 平民x2",
+      "rounds_played": 2,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "金水不是护身符：被发金水后，更应审视预言家的逻辑漏洞，防止成为狼队的'冲锋号'。",
+        "狼坑动态调整：当狼人行为异常（如攻击队友、叛票）时，需警惕其是否为倒钩狼。",
+        "逻辑优于情绪：判断预言家时，应优先分析'验人逻辑'和'警徽流'，而非仅凭发言的情绪化程度。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_191403_b9a519",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "本局作为狼人，虽然R1成功通过倒钩和卖队友（德尔塔、阿尔法）做高了身份，但在R2夜间决策出现重大失误。在队友约塔自爆暴露狼坑后，我未能正确评估局势，盲目听从队友意见去刀西塔（猎人），导致猎人发动技能带走白狼王，使狼队在R2夜间直接损失两员大将，彻底丧失轮次竞争力。正确的做法应是坚持刀掉警长泽塔，剥夺好人1.5票的归票权，制造混乱以争取生存空间。深水策略在队友接连暴毙后失效，说明过于依赖团队决策而缺乏独立的残局搏杀判断。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1 Night: 团队首刀决策分歧，最终妥协刀艾普（平安夜），错失首刀神职压制好人的机会。",
+        "R1 Day: 选择不上警并投票给真预言家伊塔，成功通过倒钩做高身份，但导致队友德尔塔和阿尔法互踩暴露。",
+        "R2 Night: 在队友约塔自爆后，未能坚持刀警长泽塔的正确战术，而是妥协刀西塔，触发猎人技能导致狼队崩盘。",
+        "R3 Night: 残局试图刀警长泽塔为时已晚，被守卫守护，最终被好人阵营围剿。",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 12,
+      "role_config": "平民x4 / 白狼王x1 / 狼人x3 / 守卫x1 / 预言家x1 / 猎人x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "狼人R2夜间若警徽在好人手中且狼队劣势，刀警长是最高优先级，优于刀神职。",
+        "当队友自爆暴露狼坑时，剩余狼人必须假设自己已被锁定，发言需更具攻击性或尝试穿神衣，被动表水必死。",
+        "猎人起跳或强势发言时，需谨慎将其作为刀口，除非能确定其身份或已无其他选择。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260524_210715_9585e4",
+      "role": "seer",
+      "won": true,
+      "reflection": "本局作为预言家，首夜精准查杀泽塔（狼人），果断起跳争夺警徽并成功带队归票，奠定了好人胜利的基础。R2验阿尔法金水并在夜间死亡后正确移交警徽，确保好人阵营有明确带队方向。整体节奏把控良好，起跳时机和发言力度都达到了竞技水准。",
+      "key_moments": [
+        "首夜查杀泽塔（狼人），获取核心信息",
+        "果断起跳报查杀，压制泽塔悍跳，成功拉拢贝塔站边",
+        "R2验阿尔法金水，死亡后正确移交警徽给金水",
+        "贝塔警下强势站边并带队冲锋，锁定泽塔出局"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 女巫x1 / 平民x2 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "预言家起跳时的发言结构：身份声明→验人结果→警徽流→拉拢站边→归票指令，按此顺序发言逻辑最清晰",
+        "被狼人查杀的好人往往是强力盟友，预言家应主动保护并拉拢，而非忽视",
+        "夜间死亡时警徽必须飞给已验证的金水，这是预言家最后的也是最重要的贡献"
+      ]
+    },
+    {
+      "game_id": "game_20260524_213501_b3e2e8",
+      "role": "witch",
+      "won": true,
+      "reflection": "This game demonstrated solid witch play with correct first-night save and decisive final-night poison. The key strength was maintaining hidden identity throughout while supporting the seer's leadership. However, the R2 decision to withhold poison when seer died was risky - if Alpha had been the wolf instead of Zeta, the game could have been lost. The R1 mislynch of villager Delta was unavoidable given limited information, but highlights the danger of following aggressive seer pushes without independent verification.",
+      "key_moments": [
+        "R1 night: Correctly saved first-night kill target, preserving village numbers advantage",
+        "R1 day: Successfully hid witch identity while supporting seer's push on Delta",
+        "R2 night: Withheld poison on uncertain wolf target, gambling on day-phase information",
+        "R3 night: Decisively poisoned Alpha when only wolf remained, securing village victory"
+      ],
+      "player_count": 6,
+      "role_config": "平民x2 / 狼人x2 / 预言家x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "First-night save in 6-player games is almost always correct due to low self-knife probability and high cost of losing potential power role",
+        "Withholding poison when wolf identity is uncertain is correct, but the threshold for certainty should be lower in endgame scenarios",
+        "Hidden witch who publicly claims villager can influence votes while maintaining poison threat - this dual pressure is valuable"
+      ]
+    },
+    {
+      "game_id": "game_20260524_230155_9c22fb",
+      "role": "seer",
+      "won": true,
+      "reflection": "This game as seer ended in a village win despite my R1 exile, because my death speech clearly identified the wolf pit (Alpha and Delta) and the surviving villagers followed through. My core play was solid—first-night check on Epsilon was correct, I jumped decisively, and my death speech gave clear guidance. However, I failed to win the sheriff badge against Alpha's fake seer jump, which nearly cost the village. Delta's aggressive distortion of Zeta's words should have been my primary target to dismantle, rather than spreading fire across multiple players.",
+      "key_moments": [
+        "Alpha fake-jumped as seer and gave me a fake gold-water to co-opt my vote—I correctly identified this as wolf play but couldn't overcome the badge vote",
+        "Delta deliberately twisted Zeta's words about 'Alpha giving gold-water' to create a fake wolf read—this was the key wolf tell I should have hammered harder",
+        "My death speech successfully locked the wolf pit (Alpha + Delta) and gave clear voting instructions, which ultimately led to village victory",
+        "Alpha's self-destruct in R2 confirmed my reads and sealed the village win"
+      ],
+      "player_count": 6,
+      "role_config": "平民x2 / 狼人x2 / 预言家x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "When wolves control the badge, the real seer's primary job becomes ensuring the death speech is maximally informative—name specific wolves, clear specific villagers, give voting priority order.",
+        "A player who claims 'key information' but only reveals generic knowledge (like 'someone was saved on peaceful night') is likely a wolf fabricating authority, not a real witch.",
+        "In badge elections with competing seer claims, villagers often vote based on who seems more confident and organized rather than pure logic—fake seers who appear calm and structured can win over chaotic truth-tellers."
+      ]
+    },
+    {
+      "game_id": "game_20260524_234827_59f48f",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "本局作为深水狼成功存活至R3，通过倒钩队友伊塔和投票切割德尔塔换取了信任，但最终仍被好人阵营锁定。队友艾普存活到最后是狼队获胜的关键。我的深水策略基本正确，但在R2被阿尔法点名后缺乏有效的反击手段，暴露了深水狼在双金水局中的生存困境。",
+      "key_moments": [
+        "R1选择不悍跳，穿平民衣服打深水，站边西塔倒钩伊塔",
+        "R2投票切割德尔塔换取信任，但德尔塔遗言锁定我是狼",
+        "R3夜刀选择贝塔而非阿尔法，削弱好人控场力"
+      ],
+      "player_count": 8,
+      "role_config": "狼人x3 / 平民x3 / 预言家x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "深水狼投票切割队友是必要手段，但需配合发言逻辑才能完全洗白",
+        "德尔塔遗言锁定我是狼说明：被推的好人遗言极具杀伤力，狼人应在投票前预判遗言影响",
+        "R1无对跳预言家时，狼队应至少一人悍跳对冲，否则好人逻辑链过于完整"
+      ]
+    },
+    {
+      "game_id": "game_20260525_094931_e24c7a",
+      "role": "hunter",
+      "won": true,
+      "reflection": "作为猎人，本局采取了低调策略，警下观察并支持真预言家拿警徽，站边和投票方向基本正确。但R1发言过于保守，仅以'好人牌'身份参与讨论，没有充分利用猎人的信息优势来帮助好人阵营排坑。最终被女巫误毒身亡，虽然好人获胜，但作为猎人被毒死说明我的好人身份表达不够充分，未能让女巫在信息不足时排除我的嫌疑。",
+      "key_moments": [],
+      "player_count": 9,
+      "role_config": "预言家x1 / 狼人x3 / 平民x3 / 女巫x1 / 猎人x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "猎人被毒死通常是因为好人面展示不足，而非运气差——需要在发言中体现逻辑深度和找狼能力",
+        "在全场无对跳的顺风局中，猎人最容易掉以轻心，以为跟票就够，实际上仍需积极发言建立好人形象",
+        "女巫R2毒人时主要看R1发言质量，零发言或纯站边发言的玩家最容易被毒，猎人必须避免这种发言模式"
+      ]
+    },
+    {
+      "game_id": "game_20260525_120016_d1735b",
+      "role": "villager",
+      "won": true,
+      "reflection": "这局作为平民打得比较稳健，R1正确识别贝塔为真预言家并投票支持，R2支持警长约塔归票西塔，R3用坑位分析锁定伊塔为最后一狼。整体表现符合平民定位：不抢风头、逻辑清晰、配合神职带队。但R2对西塔的判断过于依赖票型，没有充分考虑西塔可能是好人站错边的情况，这在更复杂的局势中可能导致误推好人。",
+      "key_moments": [
+        "R1警长投票选择贝塔而非阿尔法，基于贝塔验约塔金水且逻辑更完整",
+        "R2支持归票西塔，主要依据是西塔R1唯一投阿尔法的票型",
+        "R3用坑位分析（三神三民已满）锁定伊塔为最后一狼"
+      ],
+      "player_count": 9,
+      "role_config": "平民x3 / 猎人x1 / 狼人x3 / 女巫x1 / 预言家x1",
+      "rounds_played": 3,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "平民R1不抢警徽是正确选择，警下观察+用票帮助真预言家拿警徽是最优策略",
+        "在双预言家对跳局中，'验人逻辑'比'发言气势'更能判断真假预言家",
+        "平民后期应主动进行坑位计算，用数学逻辑而非直觉锁定狼坑"
+      ]
+    },
+    {
+      "game_id": "game_20260525_122328_e6fe2e",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "This game demonstrated the power of disciplined deep-cover wolf play across all 5 rounds. My R1 decision to hook-vote the real seer Beta (instead of pushing teammates) built long-term credibility that kept me off the wolf-pit radar entirely. The critical turning point was R4 when Zeta the hunter pivoted to push Lambda instead of me or Kappa—this was the direct result of my consistent 'invisible good villager' strategy. However, I note that my night kill proposals were overridden by teammates multiple times (R1, R2), and the team's R2 compromise kill on Xita triggered the hunter shot that cost us two wolves. My persistence on R5 to kill Xita (not Zeta) was crucial—killing the hunter would have triggered his shot and risked everything.",
+      "key_moments": [
+        "R1 hook-vote Beta for sheriff: established deep-cover credibility early, kept me off wolf-pit lists all game",
+        "R1-R4 consistent invisible villager persona: never pushed independently, always followed sheriff's lead, avoided spotlight",
+        "R4 Zeta pivoted from Kappa/Sita to push Lambda: direct result of my low-threat profile and Kappa's apparent alignment with village logic",
+        "R5 night kill decision: insisted on Xita over Zeta despite Kappa's push, correctly avoiding hunter's death-triggered shot",
+        "R2 team overrode my Delta kill proposal for Xita: led to hunter shot costing two wolves, nearly lost the game"
+      ],
+      "player_count": 12,
+      "role_config": "猎人x1 / 狼人x3 / 白狼王x1 / 预言家x1 / 女巫x1 / 平民x4 / 守卫x1",
+      "rounds_played": 5,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "In endgame with 4 players (2 wolves, 1 hunter, 1 villager), always kill the villager—hunter's death shot is an unnecessary risk when butchery condition is already achievable",
+        "When village has complete information chain (seer-hunter-witch-guard all confirmed), wolves must play pure survival—no hero plays, no fake claims, just outlast the mislynch cycle",
+        "Pit analysis by good players becomes wolves' greatest threat in late game—deep-cover wolves must ensure their voting record and speech pattern are indistinguishable from genuine villagers",
+        "Wolf teammates' self-destructs (Eta R1, Mu R3) actually helped by consuming village's lynch rounds while deep-cover wolves survived"
+      ]
+    },
+    {
+      "game_id": "game_20260525_132224_8f2583",
+      "role": "villager",
+      "won": false,
+      "reflection": "本局作为平民，我在R1警长投票时错误站边悍跳狼拉姆达，核心失误是被其'首验警下逻辑更正'的表面说辞迷惑，而忽视了阿尔法验泽塔金水后泽塔立刻冲锋的合理性。R3守卫对跳局中，我再次做出错误判断——认为泽塔R1守狼人拉姆达不合理而投泽塔，实际上未深入分析守卫首夜盲守的合理性。两次关键投票均出错，直接导致好人阵营失去节奏控制，最终狼人获胜。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1警长投票投给悍跳狼拉姆达，站错边导致真预言家阿尔法虽拿警徽但失去女巫支持",
+        "R3守卫对跳局中投泽塔，错误判断假守卫身份，导致真守卫被出",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 12,
+      "role_config": "白狼王x1 / 平民x4 / 狼人x3 / 女巫x1 / 预言家x1 / 守卫x1 / 猎人x1",
+      "rounds_played": 4,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "警下投票时，若女巫明确站边某预言家，应给予较高权重——女巫首夜信息量最大",
+        "守卫首夜盲守是标准操作，不能因为守了后来翻狼的玩家就判定守卫是狼",
+        "坑位分析虽有用，但若基础假设（如谁是真守卫）错误，整个分析链都会崩塌",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260525_142156_19a6e6",
+      "role": "villager",
+      "won": false,
+      "reflection": "这局我作为平民犯了致命错误：R1错误站边阿尔法（狼人悍跳预言家），导致真预言家艾普被全票投出。阿尔法的'验警下排坑'逻辑看似合理，但实际上狼人悍跳时完全可以设计同样的警徽流。我被单一维度（验人逻辑）带偏，忽视了艾普首验查杀的力度和卡帕无脑冲锋的可疑性。R3虽然开始质疑拉姆达，但为时已晚——狼队已经控场。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1警长投票选阿尔法而非艾普，帮助狼人拿到警徽控场",
+        "R1归票艾普（真预言家），导致好人失去核心信息源",
+        "R3质疑拉姆达但未能说服全场，且阿尔法自爆后局势已崩",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 12,
+      "role_config": "预言家x1 / 狼王x1 / 狼人x3 / 平民x4 / 女巫x1 / 守卫x1 / 猎人x1",
+      "rounds_played": 4,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "警下投票是平民最重要的决策，必须多维分析而非跟风'逻辑正'的表面话术",
+        "当全场'一致共识'归票某人时，需警惕群体思维偏差——11.5票投真预言家说明狼队控场成功",
+        "平民在优势局应保持警惕，不要因为'跟警长走'就放弃独立判断",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260525_160848_55dd77",
+      "role": "seer",
+      "won": true,
+      "reflection": "This was a clean seer win where I found both wolves across two nights and successfully transferred the badge to secure victory. My R1 campaign speech effectively exposed Beta's two logical contradictions, earning village trust. The key to victory was precise night-check targeting and a well-executed death-badge transfer to Alpha, the most reliable villager.",
+      "key_moments": [
+        "R1 night check on Beta hit wolf, giving me a powerful opening",
+        "R1 campaign speech exposed Beta's two fatal contradictions (pre-night knowledge of sheriff position, mutable check results)",
+        "R2 night check on Epsilon confirmed second wolf before my death",
+        "R2 badge transfer to Alpha ensured village had clear leadership to finish the game"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 平民x2 / 女巫x1 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "Fake seers often fabricate verification reasons that require information only available after night phase—catching this temporal inconsistency is devastating",
+        "When you have two confirmed wolves and are about to die, the badge transfer speech should be simple: name the wolf, name the successor, explain why—no need for complex analysis",
+        "Village players who correctly identify and articulate fake seer contradictions (like Alpha and Delta did) are highly trustworthy and should receive badge priority"
+      ]
+    }
+  ],
+  "strategies": [
+    "在无对跳预言家局中，猎人应重点分析发言质量差异而非简单站边，这能帮助女巫等神职做出更好的夜间决策",
+    "坑位分析法是平民后期锁定狼坑的关键工具：当所有神职和已确认平民的坑位占满后，剩余未确认身份的玩家只能是狼人",
+    "平民在警下投票时，应优先考虑预言家的验人逻辑完整性，而非单纯看谁的发言更'有力度'",
+    "当猎人明牌且持有警徽时，平民应全力配合猎人归票，避免分票导致好人内耗",
+    "Deep-cover wolf voting discipline: In no-counter-claim seer games, hook-voting the real seer R1 is highest-value play—it builds credibility for the entire game and keeps you off wolf-pit lists even in endgame pit analysis",
+    "Night kill priority in late game: When wolves reach parity (2v2 or 2v3), avoid killing hunters at all costs—the death-triggered shot can eliminate a wolf and flip the game. Kill villagers for butchery-win instead",
+    "Invisible villager strategy for deep-cover wolves: In games with strong village leadership (seer + hunter + witch chain), the optimal wolf play is zero independent pushes, consistent sheriff-following, and avoiding all spotlight—let village mislynch their own",
+    "Team disagreement resolution: When teammates propose high-risk kills (hunter, witch with poison), the safer kill (villager, non-shooting role) should take priority in close games—survival matters more than dramatic plays",
+    "当预言家对跳时，若一方首验发查杀且被查杀者不反拍身份，该预言家真面更高——因为狼人悍跳查杀好人风险大，而查杀狼队友做身份时队友通常会配合演戏",
+    "守卫对跳局中，首夜盲守任何位置都是合理的，不能用'守了狼人'来反推守卫是狼——守卫首夜不知道谁是狼",
+    "平民在双预言家对跳局中，应综合分析：验人逻辑、被验者反应、警徽流针对性、以及是否有女巫等神职站边，而非单一维度判断",
+    "长期记忆必须做结果校准：胜局经验才可谨慎强化；输局经验优先进入风险、误判和替代打法。",
+    "狼人悍跳预言家时，'验警下排坑'是标准模板，不能作为判断真假的唯一依据——狼人完全知道这个逻辑并会模仿",
+    "当有人无脑冲锋站边某预言家时（如卡帕站艾普），需考虑两种可能：冲锋狼或被骗好人，但该预言家被冲锋站边本身不能证明其为真",
+    "预言家对跳局中，首验查杀的力度比警徽流设计更重要——狼人悍跳查杀风险高，真预言家首验查杀更可信",
+    "When fake seer's verification logic has temporal contradictions (claiming to verify based on information that didn't exist at night), this is the strongest proof of wolf identity—emphasize the timeline explicitly",
+    "In 6-player games, seer should prioritize checking players with zero information contribution over those who have already demonstrated village-aligned logic",
+    "Badge transfer should go to the player with clearest logic AND strongest voting record, not just any confirmed villager"
+  ],
+  "role_summaries": {
+    "werewolf": {
+      "role": "werewolf",
+      "total_games": 10,
+      "wins": 4,
+      "losses": 6,
+      "strengths": [
+        "投票纪律好，R2果断倒钩投德尔塔而非冲票",
+        "夜间刀口选择合理，R2刀预言家剥夺验人能力",
+        "Excellent hook-vote discipline: R1 voted real seer Beta, R2 voted Jota with village, R4 voted Lambda with village—never deviated from village consensus",
+        "Superior threat management: Maintained 'invisible card' status all game, never became focus of wolf-pit discussion despite pit pressure in R3-R4",
+        "Correct R5 night kill judgment: Persisted on killing Xita (safe) over Zeta (hunter with death shot), directly secured the win",
+        "Effective deep-cover persona: Consistently echoed village logic, attacked teammates' positions when beneficial, avoided all independent pushes"
+      ],
+      "pitfalls": [
+        "缺乏独立判断：在团队决策中未能坚持刀警长的更优解，盲目跟随队友高风险战术。",
+        "残局应对不足：在队友接连出局后，未能及时调整策略（如穿神衣），导致被好人轻松排坑。",
+        "R2 failed to convince team to kill Delta (seer+sheriff) instead of Xita: team's compromise kill triggered hunter shot, nearly cost the game",
+        "R1 night kill proposal (Alpha) was overridden by team: should have argued more forcefully for middle-position targets with higher priest probability",
+        "Never attempted to wear priest clothes even when Mu was being pushed R3: pure passive survival worked this game but may not always",
+        "R4 Zeta labeled me 'invisible card' (隐形牌): indicates I was entering wolf-pit vision despite overall success"
+      ],
+      "signals_to_watch": [
+        "持警徽的好人领袖（如泽塔）在白天的归票力度，若其逻辑闭环，必须优先夜间处理。",
+        "猎人等强神职在白天的发言状态，若其强势起跳或查杀，需警惕夜间刀口风险。",
+        "When hunter player pivots push target away from you toward another villager (Zeta R4 switching to Lambda), your deep-cover is working—continue same strategy",
+        "When pit analysis narrows to 'X players claim villager but only Y true villagers remain', deep-cover wolves must ensure their behavioral record is cleaner than at least one true villager",
+        "Teammates proposing to kill hunter in endgame is a critical danger signal—must be firmly opposed as it risks triggering death shot",
+        "When village information chain is complete (all gods confirmed), wolves' only path is pure survival through mislynch cycles—any aggressive play increases exposure risk"
+      ],
+      "role_tips": [
+        "深水狼在队友暴露后，必须尝试穿神衣（如假女巫）制造逻辑分歧，不能被动等待被排。",
+        "团队决策时，若队友建议风险极高（如刀神职赌毒），应优先考虑稳健收益（如刀核心）。",
+        "Deep-cover wolf priority ranking: voting record consistency > speech alignment with village > night kill accuracy. Perfect votes matter more than perfect kills",
+        "In games where wolf team has no counter-claim seer, all wolves should play deep-cover/hook—no benefit to aggressive plays when village has information advantage",
+        "When team disagrees on night kills, advocate for the target with zero death-triggered abilities (avoid hunters, avoid witches with poison) in close games",
+        "Endgame wolf survival formula: be the last wolf standing after teammates absorb village's lynch rounds, then use parity to vote out remaining villagers"
+      ],
+      "recent_examples": [
+        "R4 Zeta pivoted from Kappa/Sita to push Lambda: direct result of my low-threat profile and Kappa's apparent alignment with village logic",
+        "R5 night kill decision: insisted on Xita over Zeta despite Kappa's push, correctly avoiding hunter's death-triggered shot",
+        "R2 team overrode my Delta kill proposal for Xita: led to hunter shot costing two wolves, nearly lost the game",
+        "In endgame with 4 players (2 wolves, 1 hunter, 1 villager), always kill the villager—hunter's death shot is an unnecessary risk when butchery condition is already achievable",
+        "When village has complete information chain (seer-hunter-witch-guard all confirmed), wolves must play pure survival—no hero plays, no fake claims, just outlast the mislynch cycle",
+        "Pit analysis by good players becomes wolves' greatest threat in late game—deep-cover wolves must ensure their voting record and speech pattern are indistinguishable from genuine villagers"
+      ],
+      "last_updated_game_id": "game_20260525_122328_e6fe2e"
+    },
+    "witch": {
+      "role": "witch",
+      "total_games": 3,
+      "wins": 1,
+      "losses": 2,
+      "strengths": [
+        "R2起跳报平安夜，成功坐实了女巫身份，为好人提供了逻辑基点。",
+        "复盘时能清晰识别出狼队利用'暴躁平民'与'理中客'对立的战术。",
+        "Correct first-night save preserved village numbers advantage throughout game",
+        "Successfully maintained hidden identity until endgame, preventing wolf from targeting witch",
+        "Decisive final-night poison on confirmed wolf Alpha secured victory",
+        "Supported seer's leadership without exposing witch identity to wolf team"
+      ],
+      "pitfalls": [
+        "首夜决策失误：未使用解药导致猎人艾普死亡且未发动技能，好人轮次大损。",
+        "R3盲毒失误：毒死猎人艾普，直接葬送了好人翻盘的希望。",
+        "控场能力不足：起跳后未能有效压制泽塔的冲锋，反而被狼队利用票型抗推好人。",
+        "R2 withholding poison when seer died was risky - if wolf identity was misjudged, game could have been lost",
+        "Following seer's aggressive push on Delta without independent verification led to villager mislynch",
+        "Public villager claim limits ability to share witch information for village coordination"
+      ],
+      "signals_to_watch": [
+        "场上'划水牌'（如德尔塔）容易被狼队利用为抗推位，需警惕其发言逻辑。",
+        "狼队可能在女巫离场后，利用悍跳狼（如泽塔）与激进好人（如贝塔）的配合控场。",
+        "当场上出现'行为逻辑'（如首日跟票）与'验人信息'（如金水）冲突时，应优先分析行为逻辑。",
+        "Players who aggressively support seer and push village logic may be deep-cover wolves building credibility",
+        "When seer dies without reporting verification, the unreported target is statistically likely wolf",
+        "Wolf team targeting seer R2 indicates they prioritize information denial over witch hunting"
+      ],
+      "role_tips": [
+        "毒药是双刃剑，必须在白天有明确狼坑逻辑时才使用，严禁夜间盲毒。",
+        "起跳女巫时，不仅要报信息，更要给出明确的归票建议，防止狼队冲票。",
+        "In 6-player games, first-night save is almost always correct due to low self-knife probability",
+        "Preserve poison for confirmed wolf identification rather than speculative use",
+        "Hidden witch claiming villager can influence votes while maintaining poison threat as endgame insurance",
+        "When only one wolf remains in 3-player endgame, poison the player who did not get night-killed"
+      ],
+      "recent_examples": [
+        "Hidden witch who publicly claims villager can influence votes while maintaining poison threat - this dual pressure is valuable",
+        "R1 night: Correctly saved first-night kill target, preserving village numbers advantage",
+        "R1 day: Successfully hid witch identity while supporting seer's push on Delta",
+        "R2 night: Withheld poison on uncertain wolf target, gambling on day-phase information",
+        "R3 night: Decisively poisoned Alpha when only wolf remained, securing village victory",
+        "First-night save in 6-player games is almost always correct due to low self-knife probability and high cost of losing potential power role"
+      ],
+      "last_updated_game_id": "game_20260524_213501_b3e2e8"
+    },
+    "villager": {
+      "role": "villager",
+      "total_games": 12,
+      "wins": 8,
+      "losses": 4,
+      "strengths": [
+        "具备基本的听发言能力，能识别出阿尔法的悍跳意图。",
+        "在R1投票时，能结合场上局势（如贝塔攻击德尔塔）进行逻辑推演。",
+        "R1正确识别真预言家贝塔并投票支持，帮助真预言家拿到警徽",
+        "发言清晰有逻辑，能有效表水证明好人身份",
+        "R3用坑位分析锁定最后一狼，逻辑严密无漏洞",
+        "全程配合神职带队，不抢风头不制造混乱"
+      ],
+      "pitfalls": [
+        "两次关键投票均出错，说明综合判断能力不足，容易被单一逻辑点带偏",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。",
+        "过度依赖'验警下排坑逻辑正'这一单一维度判断预言家，被狼人模板化逻辑欺骗",
+        "缺乏对冲锋狼（卡帕）行为的深度分析，未将其与预言家真假关联判断",
+        "跟风'全场共识'投出真预言家，缺乏逆向思维",
+        "失败局中曾将错误判断记为'高光'，污染记忆"
+      ],
+      "signals_to_watch": [
+        "警下投票分布：若多数警下玩家投某方，少数投另一方，少数方不一定都是狼，需结合发言分析",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。",
+        "狼人悍跳预言家时会刻意模仿真预言家的标准操作（验警下、警徽流），不能仅凭格式判断真假",
+        "当某玩家无脑冲锋站边后迅速认错，可能是狼队友在做距离或被骗好人的正常反应，需结合后续行为判断",
+        "全场'一致共识'归票某人时，需检查是否有狼队控场的可能",
+        "女巫的银水信息和毒药目标是重要判断依据，R3约塔报银水德尔塔、毒卡帕是关键信息"
+      ],
+      "role_tips": [
+        "平民投票时应考虑'投错的后果'：投错悍跳狼只是浪费一天，投错真守卫则失去夜间保护，后果更严重",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。",
+        "预言家对跳局中，建立多维评估：首验力度(30%)、被验者反应(25%)、冲锋者分析(25%)、警徽流逻辑(20%)——警徽流权重最低因为最易伪造",
+        "平民投票前必须问自己：'如果投错了，后果是什么？'投错真预言家比投错悍跳狼后果严重得多",
+        "当发现自己站错边后，应尽早公开纠偏而非沉默跟票——R2我继续跟票缪就是错上加错",
+        "失败复盘时，所有曾被自己认为正确的操作都必须用结果重新校验，避免将错误判断强化为经验"
+      ],
+      "recent_examples": [
+        "平民在优势局应保持警惕，不要因为'跟警长走'就放弃独立判断",
+        "R1警长投票选阿尔法而非艾普，帮助狼人拿到警徽控场",
+        "R1归票艾普（真预言家），导致好人失去核心信息源",
+        "R3质疑拉姆达但未能说服全场，且阿尔法自爆后局势已崩",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "last_updated_game_id": "game_20260525_142156_19a6e6"
+    },
+    "seer": {
+      "role": "seer",
+      "total_games": 4,
+      "wins": 3,
+      "losses": 1,
+      "strengths": [
+        "Death speech was highly effective: clearly identified wolf pit (Alpha + Delta) and gave actionable voting instructions that village followed to victory",
+        "Correctly read Alpha's fake gold-water as a wolf co-option tactic rather than being flattered by it",
+        "Two-for-two on night checks, finding both wolves efficiently",
+        "Campaign speech effectively dismantled fake seer using timeline-based logical contradictions",
+        "Badge transfer target selection was optimal—Alpha had clearest logic and strongest village alignment",
+        "Kept focus on the most critical information rather than spreading attention across multiple issues"
+      ],
+      "pitfalls": [
+        "Failed to win sheriff badge against fake seer Alpha—my campaign speech was too reactive and defensive rather than proactive and commanding",
+        "Did not effectively counter Delta's distortion of Zeta's words with direct quotes, allowing the false narrative to gain traction",
+        "Spread fire across too many targets (Alpha, Delta, Beta) rather than focusing on the most damaging wolf play (Delta's distortion)",
+        "Badge flow selection (Beta then Zeta) was suboptimal—should have prioritized Delta who was the most dangerous wolf in terms of narrative control",
+        "Badge flow declaration (Alpha then Epsilon) was slightly suboptimal—Alpha had already demonstrated village alignment, so checking a completely unknown player first would have been better",
+        "Did not anticipate being night-killed R2 despite it being the obvious wolf response to losing their teammate R1"
+      ],
+      "signals_to_watch": [
+        "When someone aggressively twists another player's words to create a wolf read, check the original quote—if it's a deliberate distortion, the twister is almost certainly wolf",
+        "Fake seer giving gold-water to the real seer is a specific wolf tactic to neutralize the real seer's voice—call this out explicitly as a tactical move",
+        "Players who vote against the verified seer but claim to be 'following logic' (like Beta) need extra scrutiny—they may be wolves following pack orders or genuinely confused villagers",
+        "Fake seers claiming to verify 'under-sheriff' players are almost certainly wolf—sheriff positions are determined after night phase",
+        "Players who vote with the real seer but contribute zero analytical content (like Epsilon) are prime wolf candidates",
+        "When a wolf self-destructs R1, the remaining wolf will almost certainly night-kill the seer R2—prepare accordingly"
+      ],
+      "role_tips": [
+        "Badge flow should prioritize the most dangerous narrative-controlling player, not just unverified positions—if someone is actively distorting logic to help the fake seer, they should be your badge flow target",
+        "In death speech, provide a PRIORITIZED wolf list with reasoning, not just names—villagers need to know who to exile first if the primary target is somehow protected",
+        "When a wolf player is aggressively distorting words, use direct quotes in your response: 'Zeta said X, Delta claims Zeta said Y—this is deliberate distortion and Delta is wolf for it'",
+        "In 6-player games, prioritize checking players who have said nothing over players who have demonstrated village logic—information gap is your enemy",
+        "Always prepare your badge transfer speech before night phase ends—if you die, you need to communicate clearly in limited time",
+        "When exposing fake seer, use specific timeline contradictions rather than general 'your logic is bad' arguments—temporal impossibilities are irrefutable"
+      ],
+      "recent_examples": [
+        "Village players who correctly identify and articulate fake seer contradictions (like Alpha and Delta did) are highly trustworthy and should receive badge priority",
+        "R1 night check on Beta hit wolf, giving me a powerful opening",
+        "R1 campaign speech exposed Beta's two fatal contradictions (pre-night knowledge of sheriff position, mutable check results)",
+        "R2 night check on Epsilon confirmed second wolf before my death",
+        "R2 badge transfer to Alpha ensured village had clear leadership to finish the game",
+        "Fake seers often fabricate verification reasons that require information only available after night phase—catching this temporal inconsistency is devastating"
+      ],
+      "last_updated_game_id": "game_20260525_160848_55dd77"
+    },
+    "hunter": {
+      "role": "hunter",
+      "total_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "strengths": [
+        "警下观察策略正确，准确判断阿尔法为真预言家并投票支持",
+        "归票方向正确，跟随真预言家归票德尔塔"
+      ],
+      "pitfalls": [
+        "R1发言过于保守，仅以'好人牌'身份泛泛而谈，缺乏具体分析和信息量",
+        "作为最后发言的零发言位，没有充分展示好人面，导致被女巫误判为狼坑并毒杀",
+        "未能让女巫在信息不足时排除我的嫌疑，好人身份表达失败"
+      ],
+      "signals_to_watch": [
+        "当自己是末置位零发言位时，极易成为被抗推或被毒的目标，必须高度重视发言质量",
+        "女巫R2毒人主要看R1发言，纯站边无分析的发言最容易被毒",
+        "在无对跳局中，发言质量差异是找狼和自证的关键，而非简单的站边表态"
+      ],
+      "role_tips": [
+        "猎人R1发言策略：不必起跳，但必须展示逻辑深度——具体分析1-2个可疑玩家，而非泛泛站边",
+        "作为警下猎人，投票支持真预言家后，发言应包含对竞选者发言质量的具体评价，这能展示好人视角",
+        "避免成为'零发言位'——即使信息不足，也要基于已有信息做出具体判断，而非等待更多信息"
+      ],
+      "recent_examples": [
+        "猎人被毒死通常是因为好人面展示不足，而非运气差——需要在发言中体现逻辑深度和找狼能力",
+        "在全场无对跳的顺风局中，猎人最容易掉以轻心，以为跟票就够，实际上仍需积极发言建立好人形象",
+        "女巫R2毒人时主要看R1发言质量，零发言或纯站边发言的玩家最容易被毒，猎人必须避免这种发言模式"
+      ],
+      "last_updated_game_id": "game_20260525_094931_e24c7a"
+    }
+  },
+  "memory_version": 2
+}

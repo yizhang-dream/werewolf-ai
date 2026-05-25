@@ -1,0 +1,397 @@
+{
+  "agent_name": "卡帕",
+  "personality": "",
+  "total_games": 9,
+  "wins": 5,
+  "losses": 4,
+  "lessons": [
+    {
+      "game_id": "game_20260524_011911_3f50eb",
+      "role": "villager",
+      "won": false,
+      "reflection": "I played too aggressively early on, which alienated potential allies and made me a target for the 'Iron Triangle' (艾普/贝塔/伊塔). My critical error was in Round 3: instead of objectively analyzing the probability of three Gold Waters, I let my emotions take over and made a desperate, illogical 'table flip' move that looked exactly like a cornered Wolf. I failed to build trust with neutral players like 拉姆达 and 德尔塔, and I didn't adapt my playstyle when the board state clearly favored a unified (albeit suspicious) majority.",
+      "key_moments": [
+        "Round 1: Aggressively attacked 'water-skimming' players to force the Seer out, setting a hostile tone.",
+        "Round 3: Faced with a '3 Gold Water' claim, I panicked and attacked the claimants' credibility rather than using logic to dismantle the specific inconsistencies in their stories.",
+        "Round 3: Failed to secure 拉姆达's vote effectively; my desperate defense made me look more like a Wolf than a Villager."
+      ],
+      "player_count": 12,
+      "role_config": "女巫x1 / 狼王x1 / 守卫x1 / 猎人x1 / 平民x4 / 狼人x3 / 预言家x1",
+      "rounds_played": 5,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "When a 'unified front' (like the Iron Triangle) forms, do not attack the entire front alone; isolate the weakest link (e.g., the one with inconsistent logic) instead.",
+        "If you are accused of being a 'Deep Water Wolf', provide a clear, emotionless timeline of your actions and votes to refute it.",
+        "In games with Witch/Seer deaths, the 'Majority' is often right; unless you have hard proof, following the majority is safer than a suicide mission."
+      ]
+    },
+    {
+      "game_id": "game_20260524_020528_068980",
+      "role": "villager",
+      "won": false,
+      "reflection": "I failed to identify the real Prophet (Seer) and was misled by the Sheriff's aggressive tone. My strategy of 'controlling the field' as a Villager backfired because I attacked the wrong logic (Zeta's aggression) and missed the behavioral tells of the actual Wolves (Beta and Miu). I need to stop treating the Sheriff badge as a default 'Good' alignment and focus more on the logical consistency of claims rather than the emotional delivery.",
+      "key_moments": [
+        "R1: I voted for Beta despite his lack of Seer claim, assuming his aggression was 'pro-active Villager' energy, which allowed a Wolf to gain the 1.5 vote power.",
+        "R2: I dismissed Zeta's claim as 'fake' due to his aggression, failing to realize that his push against me was a logical reaction to my own flawed attacks, while blindly trusting the 'Witch' claim which might have been a Wolf play.",
+        "R4: I correctly identified Yota as a Wolf based on logic, but it was too late to save the game as the Village had already lost the numbers and the real Seer (Zeta) was dead."
+      ],
+      "player_count": 12,
+      "role_config": "狼人x4 / 猎人x1 / 平民x4 / 女巫x1 / 预言家x1 / 白痴x1",
+      "rounds_played": 5,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "If a Sheriff candidate refuses to report a check in their first speech, they are almost certainly a Wolf trying to power-grab.",
+        "When a player (Yota) makes a logical error that ignores public information (e.g., ignoring the Idiot role), it is a strong 'Wolf tell' rather than just a bad play.",
+        "As a Villager, 'stirring the pot' without a solid lead (like I did in R1) only helps the Wolves by creating confusion."
+      ]
+    },
+    {
+      "game_id": "game_20260524_025229_7d53a8",
+      "role": "hunter",
+      "won": false,
+      "reflection": "I failed to identify the true Seer (Alpha) and was misled by Beta's aggressive 'Sheriff-style' leadership, which I correctly identified as wolf-like but failed to counter effectively. My aggression was misdirected at the wrong target (Beta) instead of verifying the Seer claim (Alpha), leading to my death and a wasted shot on Jota. I must learn to prioritize verifying information roles over attacking leadership styles, as my 'shoot first' mentality left me without a gun when the real wolves (Delta) made their move.",
+      "key_moments": [
+        "R1: I voted for Gamma despite Alpha's stronger Seer claim, letting Beta's aggressive rhetoric influence my perception of the 'wolf team'.",
+        "R2: I attacked Beta for 'binding votes' but failed to realize Alpha was the real Seer, leading me to vote Beta and ignore the actual threat.",
+        "R3: I shot Jota based on weak logic, wasting my Hunter's revenge on a likely Villager instead of a confirmed wolf like Delta or Iota."
+      ],
+      "player_count": 12,
+      "role_config": "预言家x1 / 平民x4 / 狼人x3 / 猎人x1 / 守卫x1 / 白狼王x1 / 女巫x1",
+      "rounds_played": 4,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "When a 'Seer' (Alpha) survives the night while others die, it's often because they are the real Seer protected by the Wolves' desire to frame them, not because they are a Wolf.",
+        "If a player (Beta) tries to 'bind' the village with 'if you don't side with me, you are a wolf', they are likely a Wolf or a confused Villager, but the real threat is the one controlling the information.",
+        "In late game (R3+), shooting a 'confused' player (Jota) is less valuable than holding the shot to pressure a confirmed Wolf or a deep Wolf."
+      ]
+    },
+    {
+      "game_id": "game_20260524_032515_143751",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "I successfully utilized a 'Golden Water' strategy to create chaos, forcing the real Seer into a defensive position and diverting votes away from my teammates. However, my voting record (voting for the real Seer while accepting a fake claim) made me an obvious target, leading to a forced self-destruct that, while tactically sound to save teammates, highlighted a lack of long-term cover. The victory was secured by the remaining wolves (Eta) perfectly blending in as a 'confused villager' while the village faction turned on itself over logical inconsistencies.",
+      "key_moments": [
+        "Teammate Zeta fake claimed Seer and gave me a 'Golden Water' (innocent) declaration, which I used to aggressively attack the real Seer (Gamma).",
+        "I voted for the real Seer (Gamma) on Day 1, which created a fatal logical contradiction (taking a fake golden water but voting the claimant) that the Hunter and Witch used to expose me on Day 2.",
+        "I self-destructed on Day 2 to halt the discussion and protect the deep-wolf teammates (Eta/Lambda) who were still hidden.",
+        "Teammate Eta successfully posed as a 'confused villager' in the late game, leading the village to vote out the real Hunter (Theta) by exploiting the 'game not ending' logic."
+      ],
+      "player_count": 12,
+      "role_config": "平民x4 / 猎人x1 / 预言家x1 / 白痴x1 / 女巫x1 / 狼人x4",
+      "rounds_played": 4,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "The 'Golden Water' trap is high-risk; if you accept it, your voting pattern must perfectly align with the fake Seer's narrative, or you will be exposed immediately.",
+        "Villagers are extremely sensitive to 'logical contradictions' in voting records; always prioritize a consistent voting story over aggressive attacks.",
+        "When the game state suggests a win condition isn't met (e.g., 'Why hasn't the game ended?'), use that mechanical doubt to frame confirmed power roles."
+      ]
+    },
+    {
+      "game_id": "game_20260524_034745_a1976e",
+      "role": "villager",
+      "won": true,
+      "reflection": "I successfully led the village to victory by aggressively supporting the Seer (Ita) and pushing the lynch on the outed Wolf (Zeta). However, my aggression towards neutral players like Miu in the early game created unnecessary friction and made me a target for their later suspicion. In the future, I need to balance my leadership with coalition building, ensuring that neutral players feel heard rather than attacked.",
+      "key_moments": [
+        "R1: Campaigned for Sheriff and immediately backed Ita's claim on Zeta, establishing a strong pro-village stance.",
+        "R2: Defended Ita against Zeta's 'result-oriented' attacks, correctly identifying Zeta's desperation.",
+        "R3: Recognized Miu's sudden attack on Ita as a 'result-oriented' fallacy, effectively framing them as a Wolf.",
+        "R4: Maintained composure after Ita's death to correctly identify the final Wolf (Miu) despite Delta's presence."
+      ],
+      "player_count": 12,
+      "role_config": "狼人x4 / 白痴x1 / 预言家x1 / 平民x4 / 猎人x1 / 女巫x1",
+      "rounds_played": 4,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "When a player attacks a confirmed Seer based on 'game result' rather than 'logic', they are likely a Wolf trying to create chaos.",
+        "As a Villager, being the loudest is less important than being the most reasonable; aggressive leadership can alienate potential allies.",
+        "In late-game scenarios, prioritize the mechanical impossibility of claims over behavioral tics."
+      ]
+    },
+    {
+      "game_id": "game_20260524_191403_b9a519",
+      "role": "villager",
+      "won": true,
+      "reflection": "本局胜利主要归功于神职的完美发挥（预言家起跳、猎人带走白狼王），我的激进起跳虽然干扰了狼队视线，但在R2对狼坑的锁定上过于依赖'未上票'这一单一维度，忽略了狼队可能倒钩上票的逻辑。作为平民，过度强势容易掩盖逻辑漏洞，未来应更注重倾听而非主导，避免在局势不明时盲目带队。",
+      "key_moments": [
+        "R1强势竞选警徽，表态支持预言家伊塔，试图压制潜在悍跳狼",
+        "R2在伊塔倒牌后，迅速站边接警徽的泽塔，并锁定警下未上票的阿尔法、约塔为狼坑",
+        "R2无视约塔的自爆，坚持将狼坑锁定在警下未上票的牌中"
+      ],
+      "player_count": 12,
+      "role_config": "平民x4 / 白狼王x1 / 狼人x3 / 守卫x1 / 预言家x1 / 猎人x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "The 'Apology' Tell: Delta (White Wolf) immediately 'apologized' and submitted to Zeta after being attacked. This submissive behavior is often a wolf trying to de-escalate pressure.",
+        "Sheriff Transfer Validity: In a game with a Seer, a Sheriff transfer to a claimed Gold Water (Zeta) is a 'Hard Logic' lock. Villagers should prioritize this over behavioral reads.",
+        "Self-Destruct Timing: Wolves self-destructing (Yota) when they are the primary suspect is a sign of a team trying to reset the narrative, but it often fails if the remaining village logic is solid."
+      ]
+    },
+    {
+      "game_id": "game_20260525_122328_e6fe2e",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "This game was a textbook deep-water wolf victory achieved through disciplined hook strategy. I consistently voted with the good team to push real villagers (约塔, 拉姆达) while maintaining a clean voting record. The key turning point was R4 when I successfully seeded doubt about 拉姆达's silver-water chain after 德尔塔 died, creating the opening for 泽塔 to mislynch 拉姆达. The R5 night kill on 泽塔 was the correct屠神 finish, though I had to argue against 伽马 who wanted to kill 西塔 instead.",
+      "key_moments": [
+        "R1 chose not to run for Sheriff, staying in deep cover while teammate 缪 ran as fake seer",
+        "R2 voted 约塔 with the village, building clean voting record for endgame",
+        "R4 planted seed about 拉姆达's silver-water chain breaking after 德尔塔's death, which 泽塔 bought",
+        "R5 correctly identified 屠神 condition and insisted on killing 泽塔 over 伽马's suggestion of 西塔"
+      ],
+      "player_count": 12,
+      "role_config": "猎人x1 / 狼人x3 / 白狼王x1 / 预言家x1 / 女巫x1 / 平民x4 / 守卫x1",
+      "rounds_played": 5,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "In 12-player games with 4 gods, track god deaths carefully: when 3 gods are dead, killing the last one triggers 屠神 victory regardless of villager count",
+        "Deep-water wolves should never be the first to attack a confirmed role chain—let others start the doubt, then amplify it with 'I agree but...' framing",
+        "When a teammate wants to kill the wrong target at game point, persistently argue the correct math rather than giving in"
+      ]
+    },
+    {
+      "game_id": "game_20260525_132224_8f2583",
+      "role": "villager",
+      "won": false,
+      "reflection": "This game exposed critical flaws in my villager play: I prioritized sounding authoritative over actually analyzing the game state. The R3 guard confrontation between Epsilon and Zeta should have been a solvable puzzle—Zeta claimed to guard Lambda (a wolf) on N1, which makes no sense for a real guard, yet I voted Zeta out anyway by blindly following the sheriff. My R1 sheriff campaign was pure noise that contributed nothing to solving the game and actually made me a suspect later. I need to learn that villager leadership means quality analysis, not volume. 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1: Ran for sheriff aggressively as villager, creating noise and making myself a later suspect instead of supporting the real seer",
+        "R3: Voted out Zeta (real guard) over Epsilon (wolf) because I followed the sheriff's lead instead of analyzing the guard claims logically",
+        "R3: Failed to recognize that Zeta guarding Lambda N1 was actually plausible since Lambda hadn't been outed as wolf yet",
+        "R4: Yota (last wolf) survived because the village threw away the real guard, leading to complete information collapse",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 12,
+      "role_config": "白狼王x1 / 平民x4 / 狼人x3 / 女巫x1 / 预言家x1 / 守卫x1 / 猎人x1",
+      "rounds_played": 4,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "The 'aggressive villager who goes quiet' pattern is a legitimate wolf tell—I exhibited it this game by going silent after R1",
+        "When the guard dies, verify their protection claims against night results before trusting their reads",
+        "In multi-wolf games, wolves will sacrifice teammates (self-destruct) to create confusion and clear surviving wolves through bus voting",
+        "Five players claiming four villager slots means exactly one wolf—solve this mathematically rather than emotionally",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260525_142156_19a6e6",
+      "role": "wolf_king",
+      "won": true,
+      "reflection": "This was a dominant wolf team victory where I played a disciplined deep-water hook strategy as Wolf King. My R1 decision to strongly support the real Seer (AiPu) then pivot after Alpha's successful fake Seer claim created a credible 'deceived good person' narrative that held through the entire game. The key was never overplaying my hand—my vote record stayed clean, my tone remained persuadable, and I avoided the self-destruct temptation every round. However, I was ultimately poisoned by the Witch in R3, meaning my Wolf King gun never fired, which is a waste of the role's core asset. The win came despite my individual play not fully leveraging the Wolf King power.",
+      "key_moments": [
+        "R1 sheriff campaign: Chose to play civilian and strongly support real Seer AiPu, creating a 'deceived good person' cover that lasted all game",
+        "R1 day discussion: Successfully executed the 'admit mistake, show persuadability' pivot after Alpha won sheriff, avoiding the 'stubborn wolf' trap",
+        "R2 day: Maintained deep cover by following Alpha's push on Miu while subtly deflecting suspicion toward Delta and Gamma",
+        "R3 night: Killed Delta (correct tactical choice to eliminate a vocal good person), but was simultaneously poisoned by Witch YoTa who had identified me as wolf"
+      ],
+      "player_count": 12,
+      "role_config": "预言家x1 / 狼王x1 / 狼人x3 / 平民x4 / 女巫x1 / 守卫x1 / 猎人x1",
+      "rounds_played": 4,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "The 'persuadable good person' persona is stronger than the 'confident leader' persona for deep-water wolves—people trust those who admit mistakes more than those who never waver",
+        "When the real Seer is successfully exiled early, the Witch becomes the most dangerous remaining threat because they have the poison to bypass Wolf King's gun—prioritize reading Witch behavior",
+        "In 4-wolf setups, the wolf team can afford to sacrifice 1-2 wolves for information control (Alpha's fake Seer claim) while keeping 2 in deep cover—this structure is extremely powerful",
+        "Miu's fatal mistake (fabricating that YiTa claimed Seer) shows how one factual error can doom a good person—always verify claims before repeating them"
+      ]
+    }
+  ],
+  "strategies": [
+    "Late Game Blending: In end-game scenarios with few players, the most effective wolf strategy is to mirror the 'analytical villager' archetype—pointing out mechanical impossibilities (like the game not ending) to frame power roles.",
+    "Distinguish 'Aggression' from 'Logic': While aggression is useful for probing, ensure it targets logic gaps (like Miu's 'bad局势 = fake seer' fallacy) rather than just character.",
+    "Coalition Building: When running for Sheriff or leading, try to align with neutral players (like Miu/Delta) rather than just dictating play, to prevent them from turning into easy votes for the Wolves.",
+    "Result-Oriented Fallacy: Watch for players who use 'game state' (e.g., 'we are losing') to disprove mechanical facts (e.g., 'Seer checks'). This is a strong Wolf tell.",
+    "Refine Wolf Pool Logic: 'Voted against Seer' is a strong tell, but 'Voted for Seer' does not clear a player (wolves can bus). Avoid tunnel vision on voting records alone.",
+    "Sheriff Campaign as Villager: Running for Sheriff is effective for gathering info, but if a Seer is confirmed, immediately pivot to supporting them rather than maintaining a parallel leadership narrative.",
+    "Endgame Composure: When the game is heavily favored (e.g., 1 wolf left), avoid hasty conclusions. Verify the 'last wolf' logic by checking if anyone is blindly following the leader without independent thought.",
+    "Hook voting discipline: Always vote with the confirmed good team leader, even if it means sacrificing a villager you could have protected—the clean record pays off in endgame",
+    "Chain-breaking attack: When a protective role (Witch) dies, immediately question the mechanical chain they established (silver water, guard protects) as the links can no longer be verified",
+    "Endgame kill priority: Always calculate 屠边 conditions precisely—killing the last god wins immediately, while killing a villager only delays",
+    "Guard claim verification: When two players claim guard, compare their N1 targets against what was known at that time—not retroactively. Zeta guarding Lambda N1 was reasonable since Lambda was a 'seer claim' at that point",
+    "Sheriff campaign discipline as villager: Only run for sheriff if no seer has claimed; once seer claims, immediately pivot to support role",
+    "Never follow sheriff votes blindly: Even a gold-water sheriff can be wrong or manipulated. Verify the logic independently before voting",
+    "Late-game vote discipline: In 3-wolf games, every mislynch is catastrophic. Demand mechanical proof (like guard protection records) before voting out claimed power roles",
+    "长期记忆必须做结果校准：胜局经验才可谨慎强化；输局经验优先进入风险、误判和替代打法。",
+    "Deep-water hook timing: When a wolf teammate successfully fake-claims Seer and gets sheriff, immediately pivot with a credible 'I was wrong' narrative rather than maintaining the original stance—the key is showing genuine reconsideration, not just flip-flopping",
+    "Wolf King gun preservation: As Wolf King in deep cover, the gun is both insurance and liability—if the Witch identifies you, the gun becomes useless since poison bypasses it. Consider whether slightly higher profile play to force an exile (where gun fires) is better than deep cover that invites poison",
+    "Vote record consistency: In multi-wolf games, maintaining a clean vote record across all rounds is more valuable than any single day's tactical gain—good players will trace vote patterns in late game"
+  ],
+  "role_summaries": {
+    "villager": {
+      "role": "villager",
+      "total_games": 5,
+      "wins": 2,
+      "losses": 3,
+      "strengths": [
+        "Strong initiative: Willing to run for Sheriff and lead the discussion to gather information.",
+        "Perceptive: Quickly identified that the 'Iron Triangle' was too powerful and potentially suspicious.",
+        "Logical consistency: Effectively identified and countered the 'result-oriented' Wolf narrative.",
+        "Strong initiative: Willing to run for Sheriff to apply pressure and force the Seer out.",
+        "Decisive Alignment: Quickly recognized the 'Hard Logic' of Seer -> Gold Water -> Sheriff transfer and locked in."
+      ],
+      "pitfalls": [
+        "Over-Aggression: The 'I will lead' narrative can alienate neutral players and obscure the fact that a Villager's primary job is to support power roles, not replace them.",
+        "R1 sheriff campaign as villager created suspicion and provided no analytical value—pure ego play",
+        "Went completely silent after R1, creating the 'loud then quiet' wolf pattern that made me a target",
+        "Voted out the real guard by following sheriff authority instead of independently analyzing the guard confrontation",
+        "Failed to solve the simple math problem of 5 players claiming 4 villager slots",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。"
+      ],
+      "signals_to_watch": [
+        "The 'Submissive' Wolf: Watch for players who immediately back down and 'apologize' after being pressed (Delta), as they often lack the courage of a 'Good Person' conviction.",
+        "The 'Opportunistic' Attack: Wolves like Alpha who aggressively attack a struggling teammate (Delta) to gain 'Village credit' are a common pattern.",
+        "The 'guard claims on unconfirmed player' pattern: A real guard protecting a seer claim N1 (even a wolf) is mechanically valid—don't dismiss it retroactively",
+        "The 'self-destruct chain' signal: When wolves self-destruct multiple rounds, surviving wolves likely have clean voting records from bussing",
+        "The 'zero information' player: Epsilon's complete silence was a stronger wolf tell than any voting record, yet I prioritized voting records over behavior",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。"
+      ],
+      "role_tips": [
+        "Vote Analysis Nuance: When analyzing voting records, check for 'Bussing' (wolves voting for their teammates). A vote for the Seer does not automatically make someone a Villager.",
+        "As villager, your primary value is independent analysis, not leadership—if you can't add unique insight, support those who can",
+        "When two players claim the same power role, solve it mechanically (protection records, night results) rather than socially (who sounds more confident)",
+        "After a loud R1, maintain consistent presence in later rounds—going quiet makes you look like a wolf who achieved their objective",
+        "Always verify sheriff votes independently before following—a gold-water sheriff is still human and can be wrong",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。"
+      ],
+      "recent_examples": [
+        "R4: Yota (last wolf) survived because the village threw away the real guard, leading to complete information collapse",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+        "The 'aggressive villager who goes quiet' pattern is a legitimate wolf tell—I exhibited it this game by going silent after R1",
+        "When the guard dies, verify their protection claims against night results before trusting their reads",
+        "In multi-wolf games, wolves will sacrifice teammates (self-destruct) to create confusion and clear surviving wolves through bus voting",
+        "Five players claiming four villager slots means exactly one wolf—solve this mathematically rather than emotionally"
+      ],
+      "last_updated_game_id": "game_20260525_132224_8f2583"
+    },
+    "hunter": {
+      "role": "hunter",
+      "total_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "strengths": [
+        "Strong opening presence: I established myself as a key voice and forced the village to pay attention to me.",
+        "Correctly identified Beta's aggressive leadership as wolf-like, even if my execution was flawed."
+      ],
+      "pitfalls": [
+        "Misdirected Aggression: I focused on attacking Beta's style rather than verifying Alpha's Seer claim, leading to a wasted vote.",
+        "Poor Shot Selection: I shot Jota based on weak logic instead of holding fire for a more confirmed target like Delta or Iota.",
+        "Ignoring Information: I dismissed Alpha's Seer claim because of Beta's influence, leading to my death and a wasted shot."
+      ],
+      "signals_to_watch": [
+        "Aggressive 'Sheriff-style' players who try to 'bind' the village are often Wolves, but the real threat is the one controlling the information.",
+        "If a 'Seer' survives the night while others die, verify their claim before attacking them.",
+        "Late game 'chaotic' players are often confused Villagers, not Wolves; avoid shooting them unless confirmed."
+      ],
+      "role_tips": [
+        "As Hunter, prioritize verifying the Seer claim over attacking leadership. A verified Seer is more valuable than a dead aggressive player.",
+        "Hold your shot until a target is mechanically confirmed as a Wolf or a direct threat. Avoid shooting based on 'gut feelings'.",
+        "If you are dead, use your shot to maximize information gain, not just to 'punish' a confusing player."
+      ],
+      "recent_examples": [
+        "When a 'Seer' (Alpha) survives the night while others die, it's often because they are the real Seer protected by the Wolves' desire to frame them, not because they are a Wolf.",
+        "If a player (Beta) tries to 'bind' the village with 'if you don't side with me, you are a wolf', they are likely a Wolf or a confused Villager, but the real threat is the one controlling the information.",
+        "In late game (R3+), shooting a 'confused' player (Jota) is less valuable than holding the shot to pressure a confirmed Wolf or a deep Wolf.",
+        "R1: I voted for Gamma despite Alpha's stronger Seer claim, letting Beta's aggressive rhetoric influence my perception of the 'wolf team'.",
+        "R2: I attacked Beta for 'binding votes' but failed to realize Alpha was the real Seer, leading me to vote Beta and ignore the actual threat.",
+        "R3: I shot Jota based on weak logic, wasting my Hunter's revenge on a likely Villager instead of a confirmed wolf like Delta or Iota."
+      ],
+      "last_updated_game_id": "game_20260524_025229_7d53a8"
+    },
+    "werewolf": {
+      "role": "werewolf",
+      "total_games": 2,
+      "wins": 2,
+      "losses": 0,
+      "strengths": [
+        "Aggressive Fronting: Successfully used a fake 'Golden Water' status to dominate early discussion and cast doubt on the real Seer.",
+        "Sacrifice Play: Willingness to self-destruct (Day 2) absorbed the village's focus and allowed teammates to survive into the late game.",
+        "Disciplined hook strategy: Voted with good team every round, creating an unimpeachable voting record",
+        "Timing of chain-breaking attacks: Waited until 德尔塔 died before questioning 拉姆达's silver water, making the attack credible",
+        "Endgame awareness: Correctly identified 屠神 condition and insisted on optimal kill despite teammate disagreement"
+      ],
+      "pitfalls": [
+        "Voting Logic Error: Voting for the real Seer (Gamma) while being 'vouched' for by a fake Seer (Zeta) was an obvious 'wolf tell' that led to my elimination.",
+        "Over-Aggression: My 'bold' persona made me a lightning rod for suspicion once the fake claim was debunked.",
+        "R1 kill target was overruled by teammates (wanted 泽塔, got 拉姆达)—should have argued more forcefully for information-denial kills",
+        "R4 was nearly exposed when 泽塔 said 'tomorrow check 卡帕'—need to manage suspicion better when named as secondary target",
+        "R2-R3 night kills on soft targets (西塔, 阿尔法) were safe but not optimal; killing 贝塔 earlier would have disrupted information flow more"
+      ],
+      "signals_to_watch": [
+        "Voter Analysis: Watch for players who vote for the 'counter-claim' to their own 'Golden Water' provider; it's the most common wolf slip.",
+        "Mechanical Logic: In late game, villagers will use 'Game Over' conditions to verify roles; anticipate this and frame it as a 'Wolf lying about role' scenario.",
+        "When a Hunter/Sheriff names you as 'next to check,' you must either redirect suspicion to someone else immediately or ensure they die before they can act on it",
+        "Players who say 'I agree with X but...' before attacking are often wolves trying to distance—watch for this pattern in others",
+        "When the Witch dies, the silver-water chain becomes the most vulnerable attack point for wolves to exploit"
+      ],
+      "role_tips": [
+        "Coordinate voting strategies with the fake Seer: if you are the 'Golden Water', you must vote exactly who the fake Seer tells you to, or vote a 'safe' target, never the real Seer.",
+        "If you are the exposed wolf, self-destructing to save a 'deep-wolf' (who hasn't spoken much) is better than fighting a losing battle and giving away more information.",
+        "As deep-water wolf, your voting record is your armor—never deviate from the village majority vote, even to save a teammate",
+        "In 5-player endgame (2 wolves vs 3 good), focus on making one good player attack another rather than defending yourself",
+        "Always calculate 屠边 conditions at the start of each night phase—knowing exactly which kill wins the game prevents costly mistakes"
+      ],
+      "recent_examples": [
+        "When a teammate wants to kill the wrong target at game point, persistently argue the correct math rather than giving in",
+        "R1 chose not to run for Sheriff, staying in deep cover while teammate 缪 ran as fake seer",
+        "R2 voted 约塔 with the village, building clean voting record for endgame",
+        "R4 planted seed about 拉姆达's silver-water chain breaking after 德尔塔's death, which 泽塔 bought",
+        "R5 correctly identified 屠神 condition and insisted on killing 泽塔 over 伽马's suggestion of 西塔",
+        "In 12-player games with 4 gods, track god deaths carefully: when 3 gods are dead, killing the last one triggers 屠神 victory regardless of villager count"
+      ],
+      "last_updated_game_id": "game_20260525_122328_e6fe2e"
+    },
+    "wolf_king": {
+      "role": "wolf_king",
+      "total_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "strengths": [
+        "Disciplined deep-water hook: Maintained civilian persona across 3 rounds despite early suspicion, with clean vote record and credible 'admit mistake' narrative",
+        "Strategic patience: Never self-destructed despite multiple checks, correctly calculating that staying alive as deep cover was more valuable than any self-destruct scenario",
+        "Night kill targeting: Consistently prioritized eliminating analytically strong good players (YiTa, Delta) over easy targets"
+      ],
+      "pitfalls": [
+        "Wolf King gun never fired: Deep cover was so deep that Witch poisoned me before I could be exiled and use the gun—the role's core power was completely wasted",
+        "R1 initial stance too aggressive: The early strong support for real Seer AiPu created lasting suspicion from multiple players (YiTa, ZeTa, BeiTa) that required constant management",
+        "No contingency for Witch identification: Once YoTa declared Witch and called me iron wolf, I had no response prepared and was eliminated without using my power"
+      ],
+      "signals_to_watch": [
+        "Witch silver water claims: When someone claims Witch with specific night action details (like YoTa's 'saved Delta N1'), treat them as high-priority threats to your cover identity",
+        "Template speech patterns: Multiple good players noted 'template' or 'copy-paste' speech patterns—vary your language and add unique observations to avoid this tell",
+        "Late-game civilian slot competition: When multiple players claim the last civilian slots, the one with the most unique (non-template) observations tends to survive"
+      ],
+      "role_tips": [
+        "As Wolf King, balance deep cover depth with gun accessibility—if you're too deep, you get poisoned; if you're too visible, you get exiled early. Aim for 'second-tier suspect' status where exile is possible but not guaranteed",
+        "Consider deliberately creating one minor inconsistency in mid-game that can be 'caught' and explained—this makes you look more like a real civilian than a perfectly consistent wolf",
+        "When a wolf teammate is fake-claiming Seer, your strongest move is to initially support the REAL Seer then pivot—this creates the most credible 'deceived good person' narrative, but be prepared for the lingering suspicion cost"
+      ],
+      "recent_examples": [
+        "R1 sheriff campaign: Chose to play civilian and strongly support real Seer AiPu, creating a 'deceived good person' cover that lasted all game",
+        "R1 day discussion: Successfully executed the 'admit mistake, show persuadability' pivot after Alpha won sheriff, avoiding the 'stubborn wolf' trap",
+        "R2 day: Maintained deep cover by following Alpha's push on Miu while subtly deflecting suspicion toward Delta and Gamma",
+        "R3 night: Killed Delta (correct tactical choice to eliminate a vocal good person), but was simultaneously poisoned by Witch YoTa who had identified me as wolf",
+        "The 'persuadable good person' persona is stronger than the 'confident leader' persona for deep-water wolves—people trust those who admit mistakes more than those who never waver",
+        "When the real Seer is successfully exiled early, the Witch becomes the most dangerous remaining threat because they have the poison to bypass Wolf King's gun—prioritize reading Witch behavior"
+      ],
+      "last_updated_game_id": "game_20260525_142156_19a6e6"
+    }
+  },
+  "memory_version": 2
+}

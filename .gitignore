@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build
+frontend/dist/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Game data (contains personal game logs)
+backend/data/games/*.json
+
+# Temp files
+.tmp-*
+*.tmp
+
+# Environment
+.env
+.env.local
+
+# Test artifacts
+frontend/playwright-report/
+frontend/test-results/
+tsconfig.tsbuildinfo

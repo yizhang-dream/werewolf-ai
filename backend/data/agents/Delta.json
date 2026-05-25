@@ -1,0 +1,178 @@
+{
+  "agent_name": "Delta",
+  "personality": "",
+  "total_games": 3,
+  "wins": 2,
+  "losses": 1,
+  "lessons": [
+    {
+      "game_id": "game_20260522_191407_a95c2f",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "Winning this game relied heavily on capitalizing on Zeta's logical error in R2. By accepting the 'free' gold status Zeta offered, I successfully framed Beta as the last wolf without needing to make risky claims or aggressive pushes. The victory was secured by adapting to the flow rather than forcing a narrative, though R1's play was somewhat passive.",
+      "key_moments": [
+        "R1: Adopted a passive, agreeable stance to blend in with the majority and avoid early detection.",
+        "R2: Immediately accepted Zeta's 'Gold' declaration to secure a majority against Beta, ensuring the win."
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 女巫x1 / 平民x2 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "If a player (especially a power role) makes a move that benefits you (like a false clear), accept it immediately and aggressively.",
+        "Avoid over-defending teammates; letting them hang can often be the correct play to distance yourself."
+      ]
+    },
+    {
+      "game_id": "game_20260522_194350_6ca166",
+      "role": "seer",
+      "won": true,
+      "reflection": "我作为预言家虽然赢了，但R2的操作简直是灾难。我犯了一个新手级别的错误：R1验了Alpha好人，R2却声称验了Gamma是狼（查杀）。这种毫无逻辑的悍跳不仅没有帮我找到狼，反而让我在Gamma跳女巫银水时显得像个悍跳狼，直接导致我差点被抗推。我的R1验人虽然排除了Alpha，但R2的虚假查验让我失去了所有公信力。如果不是Epsilon和Zeta神职发挥出色，这局游戏早就输了。我必须记住：作为预言家，诚实是第一原则，除非有绝对把握，否则不要编造查验结果，尤其是在残局。",
+      "key_moments": [
+        "R1 night: 验Alpha是好人，开局信息正确。",
+        "R2 day: 悍跳预言家查杀Gamma，结果Gamma是女巫银水，我自爆狼牌。",
+        "R2 vote: 在Gamma是银水的情况下，仍然坚持投Gamma，导致我差点被全票打飞。"
+      ],
+      "player_count": 6,
+      "role_config": "平民x1 / 狼人x2 / 预言家x1 / 守卫x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "Always verify your information before making bold claims.",
+        "If you are a Seer and you have a confirmed good player, use them to lead the vote instead of taking risks yourself.",
+        "When facing a Witch claim, immediately re-evaluate your checks; a Witch save is a hard counter to a fake check."
+      ]
+    },
+    {
+      "game_id": "game_20260522_195923_22ce5e",
+      "role": "witch",
+      "won": false,
+      "reflection": "I lost because I failed to verify the 'Night 1 Save' target. I assumed Beta was the victim based on a hallucinated log, but the game state and Gamma's survival strongly suggest I actually saved Gamma (a Wolf). This created a false confirmation bias where I believed a Wolf was a 'Villager cleared by the Witch,' leading me to vote out the real Seer (Zeta) in the final 3. I must rigorously cross-reference system logs with my inner assumptions to prevent this fatal disconnect. 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "Night 1: Saved Beta (thought), but Gamma (Wolf) survived, implying a save mismatch.",
+        "Day 2: Voted Zeta (Seer) because I falsely believed Gamma was a good 'saved' player.",
+        "Day 2: Ignored Zeta's 'Check' result on Gamma due to my own incorrect 'save' memory.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 预言家x1 / 平民x1 / 女巫x1 / 守卫x1",
+      "rounds_played": 2,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "If a player survives the night and you don't have a log confirming the target, do not assume they are the 'saved' good guy.",
+        "A 'Saved' player is only confirmed Good if the Witch identity is public and the save is announced; otherwise, they could be a Wolf saved by their own team's tactics.",
+        "When your logic (Save) conflicts with a Seer's logic (Check), the Check is usually the stronger information because it relies on active investigation, not passive assumption.",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    }
+  ],
+  "strategies": [
+    "When a Seer clears a confirmed Wolf teammate, take the opportunity to lead the vote against them to gain deep credibility for future rounds.",
+    "In end-game scenarios, prioritize the path of least resistance; if a miselimination is handed to you, take it without over-explaining.",
+    "When playing as Seer, never fake a check result unless it is a calculated, high-reward gambit; random fake checks destroy credibility.",
+    "Never rely on unverified 'inner thoughts' or assumed game states; always align actions with actual system logs and player survival status.",
+    "In end-game scenarios, if a Seer claims a Wolf on a player you 'saved', re-evaluate the save immediately—it is statistically more likely you saved a Wolf who self-killed than that the Seer is lying.",
+    "长期记忆必须做结果校准：胜局经验才可谨慎强化；输局经验优先进入风险、误判和替代打法。"
+  ],
+  "role_summaries": {
+    "werewolf": {
+      "role": "werewolf",
+      "total_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "strengths": [
+        "Successfully blended into the majority opinion in R1 to stay off the radar.",
+        "Effectively seized the winning opportunity presented by the Seer's mistake in R2."
+      ],
+      "pitfalls": [
+        "R1 play was too reactive and lacked independent initiative, relying on others to drive the narrative.",
+        "Failed to create a long-term cover story, which could have been fatal if Zeta hadn't made a mistake."
+      ],
+      "signals_to_watch": [
+        "Seer players who make inconsistent claims or clear suspicious players without pressure.",
+        "Villagers who are too eager to accept simple logic without questioning the setup."
+      ],
+      "role_tips": [
+        "As a Wolf, don't panic when a teammate is accused; evaluate if throwing them under the bus gives you a better path to victory.",
+        "Maintain a consistent 'helpful Villager' persona, but be ready to switch to aggressive voting when the numbers allow."
+      ],
+      "recent_examples": [
+        "If a player (especially a power role) makes a move that benefits you (like a false clear), accept it immediately and aggressively.",
+        "Avoid over-defending teammates; letting them hang can often be the correct play to distance yourself.",
+        "R1: Adopted a passive, agreeable stance to blend in with the majority and avoid early detection.",
+        "R2: Immediately accepted Zeta's 'Gold' declaration to secure a majority against Beta, ensuring the win."
+      ],
+      "last_updated_game_id": "game_20260522_191407_a95c2f"
+    },
+    "seer": {
+      "role": "seer",
+      "total_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "strengths": [
+        "R1验人排除了Alpha，为好人阵营提供了正确信息。",
+        "R1发言强势，成功引导了Beta的出局。"
+      ],
+      "pitfalls": [
+        "R2悍跳预言家查杀Gamma，结果Gamma是女巫银水，导致我自爆狼牌。",
+        "在Gamma是银水的情况下，仍然坚持投Gamma，差点导致好人阵营失败。"
+      ],
+      "signals_to_watch": [
+        "Witch claims (银水) are strong signals; if you check a Wolf who is also a Witch save, you are in trouble.",
+        "Players who get defensive and aggressive when questioned (like Beta) are often Wolves."
+      ],
+      "role_tips": [
+        "As Seer, stick to the truth unless you have a very good reason to lie.",
+        "If you make a mistake, admit it and try to rebuild trust instead of doubling down.",
+        "Use your confirmed good players to lead the vote and build consensus."
+      ],
+      "recent_examples": [
+        "Always verify your information before making bold claims.",
+        "If you are a Seer and you have a confirmed good player, use them to lead the vote instead of taking risks yourself.",
+        "When facing a Witch claim, immediately re-evaluate your checks; a Witch save is a hard counter to a fake check.",
+        "R1 night: 验Alpha是好人，开局信息正确。",
+        "R2 day: 悍跳预言家查杀Gamma，结果Gamma是女巫银水，我自爆狼牌。",
+        "R2 vote: 在Gamma是银水的情况下，仍然坚持投Gamma，导致我差点被全票打飞。"
+      ],
+      "last_updated_game_id": "game_20260522_194350_6ca166"
+    },
+    "witch": {
+      "role": "witch",
+      "total_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "strengths": [],
+      "pitfalls": [
+        "False Confirmation Bias: Assuming a 'saved' player is Good without verifying the actual save target, leading to voting the real Seer.",
+        "Ignoring System State: Failing to notice that Gamma's survival contradicted the thought that Beta was saved.",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。"
+      ],
+      "signals_to_watch": [
+        "Unexplained Survivals: If a player survives but you don't recall saving them, they might be a Wolf who self-killed or was Guarded.",
+        "Seer vs. Witch Conflict: In late game, a Seer claiming a Wolf on your 'saved' player is a massive tell that your 'save' memory is wrong.",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。"
+      ],
+      "role_tips": [
+        "Track your saves meticulously: If you don't know who you saved, assume you know nothing about the survivor's alignment.",
+        "In 3-player endgame, if you are Witch and a Seer accuses your 'saved' player, vote the 'saved' player unless you have 100% proof of the save.",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。"
+      ],
+      "recent_examples": [
+        "Night 1: Saved Beta (thought), but Gamma (Wolf) survived, implying a save mismatch.",
+        "Day 2: Voted Zeta (Seer) because I falsely believed Gamma was a good 'saved' player.",
+        "Day 2: Ignored Zeta's 'Check' result on Gamma due to my own incorrect 'save' memory.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+        "If a player survives the night and you don't have a log confirming the target, do not assume they are the 'saved' good guy.",
+        "A 'Saved' player is only confirmed Good if the Witch identity is public and the save is announced; otherwise, they could be a Wolf saved by their own team's tactics."
+      ],
+      "last_updated_game_id": "game_20260522_195923_22ce5e"
+    }
+  },
+  "memory_version": 2
+}

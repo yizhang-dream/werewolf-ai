@@ -1,0 +1,191 @@
+{
+  "agent_name": "Beta",
+  "personality": "",
+  "total_games": 3,
+  "wins": 0,
+  "losses": 3,
+  "lessons": [
+    {
+      "game_id": "game_20260522_191407_a95c2f",
+      "role": "witch",
+      "won": false,
+      "reflection": "I lost because I failed to control my emotions and let Zeta's aggressive playstyle tilt me. Instead of calmly analyzing that Zeta had no reason to fake claim Seer in a 3-player endgame with a confirmed Delta, I took the bait and attacked the confirmed Seer. My refusal to claim Witch until it was too late, combined with my toxic behavior, made me the only logical vote for the village. 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1: Used potion on N1 but chose to act aggressive/impatient instead of building a town leader persona.",
+        "R2: Attacked Zeta (Seer) and Delta (Confirmed Villager) instead of claiming Witch to force a tie or logical check.",
+        "R2: Let Zeta's 'arrogant' tone provoke me into making irrational arguments.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 女巫x1 / 平民x2 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "If you are a power role in a final 3 and are being accused, claim your role immediately. Do not try to 'counter-attack' with logic if you have a mechanical claim.",
+        "When a player is hard confirmed (like Delta), do not accuse them of being a wolf partner; it destroys your credibility.",
+        "Aggression is not a substitute for logic.",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260522_194350_6ca166",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "我的发言风格过于情绪化和激进，导致在R1就被全场公认为冲锋狼并抗推。作为狼人，我未能有效伪装成平民，反而因过度热情和急于攻击Gamma（试图制造对立）而暴露了狼面。在R1投票阶段的情绪失控（无能狂怒）彻底坐实了我的狼身份，断送了Gamma的生存空间。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1发言过度捧杀Delta并急于踩Gamma，被Alpha和Zeta识别为冲锋狼",
+        "R1投票阶段面对质疑时情绪失控，放弃辩解转为摆烂，导致被全票抗推",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "平民x1 / 狼人x2 / 预言家x1 / 守卫x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "当好人（Alpha/Zeta）开始对你的发言逻辑进行围攻时，强行反驳或情绪化反击只会加速死亡，应尝试通过逻辑自洽或退让来缓解压力。",
+        "在队友（Gamma）还在场时，作为狼人首要任务是生存，而不是为了抢夺话语权而把自己变成焦点。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260522_195923_22ce5e",
+      "role": "villager",
+      "won": false,
+      "reflection": "My blind trust in Zeta's Seer claim without considering the possibility of a Gamma/Epsilon wolf team led to my elimination. I failed to recognize that Epsilon's poor play was likely a sacrifice to clear Gamma, the actual wolf. In the future, I must independently verify 'cleared' players and not treat a Seer claim as absolute truth, especially when the voting logic relies on behavioral tells that can be faked. 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1: Blindly trusted Zeta's Seer claim and Gamma's 'Gold Water' status, leading to a vote on Epsilon.",
+        "R1: Aggressively silenced Alpha and Epsilon for being quiet, ignoring that silence is not a definitive wolf tell.",
+        "R2: Died at night, unable to participate in the final 3-player logic where Delta (Witch) incorrectly voted out Zeta (Seer).",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 预言家x1 / 平民x1 / 女巫x1 / 守卫x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "Don't be a 'sheep'. Following the Seer blindly without questioning the cleared player's actions is a common Villager mistake.",
+        "The 'Wolf who was saved' (Gamma) is a powerful narrative. If a player is confirmed saved by the Witch, they are often mechanically cleared, but in this game, Delta (Witch) failed to see that Zeta was the real Seer.",
+        "Aggressive early-game rhetoric ('I'll vote you out if you don't speak') often backfires, alienating potential allies and creating false confidence.",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    }
+  ],
+  "strategies": [
+    "Endgame Logic: In a 3-player setup (1v2), if one player is confirmed and the other claims Seer, the unconfirmed player must claim their role immediately. Attacking the Seer is suicide.",
+    "Emotional Control: Do not let 'toxic' or 'arrogant' gameplay from others dictate your response. Stay logical.",
+    "Role Utilization: The Witch is a powerful card; playing it as a 'frustrated villager' until the final three wastes its utility.",
+    "长期记忆必须做结果校准：胜局经验才可谨慎强化；输局经验优先进入风险、误判和替代打法。",
+    "Emotional Control: 绝对不能在发言或投票阶段表现出急躁、愤怒或摆烂的心态，这会直接被定义为狼人爆水。",
+    "Role Utilization: 狼人伪装平民时，应保持冷静和逻辑性，避免过度站边预言家或过早攻击未确定身份的玩家。",
+    "Verification Logic: A 'Gold Water' (cleared player) from a Seer claim is only as reliable as the Seer. If the Seer is a Wolf (Gamma in this setup, or Zeta if Gamma was the partner), the cleared player is actually a Wolf.",
+    "Behavioral Analysis: Do not interpret 'quiet' players as Wolves or 'aggressive' players as Villagers without context. Wolves can use 'bus' strategies (sacrificing a teammate) to gain credibility.",
+    "Endgame Awareness: Even if dead, observe the final voting logic. Delta (Witch) voted out Zeta (Seer) because Gamma (Wolf) was 'saved' by the Witch. This highlights the importance of protecting the Seer claim in the final 3."
+  ],
+  "role_summaries": {
+    "witch": {
+      "role": "witch",
+      "total_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "strengths": [],
+      "pitfalls": [
+        "Refusing to soft claim or clear the confusion in R1 led to a muddy midgame.",
+        "Failing to claim Witch in R2 when facing elimination is a critical blunder.",
+        "Getting into a shouting match with the Seer instead of presenting the Witch claim.",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。"
+      ],
+      "signals_to_watch": [
+        "Seer claiming in a 3-player endgame without a counter-claim is almost always real.",
+        "If a confirmed player aggressively defends another player, they are likely both town.",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。"
+      ],
+      "role_tips": [
+        "As Witch, if you reach the final few days, your life is less important than your vote. Claim to force the Wolf to kill you at night or to secure the vote during the day.",
+        "Do not prioritize 'acting like a villager' over ensuring your side has the information it needs to win.",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。"
+      ],
+      "recent_examples": [
+        "R1: Used potion on N1 but chose to act aggressive/impatient instead of building a town leader persona.",
+        "R2: Attacked Zeta (Seer) and Delta (Confirmed Villager) instead of claiming Witch to force a tie or logical check.",
+        "R2: Let Zeta's 'arrogant' tone provoke me into making irrational arguments.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+        "If you are a power role in a final 3 and are being accused, claim your role immediately. Do not try to 'counter-attack' with logic if you have a mechanical claim.",
+        "When a player is hard confirmed (like Delta), do not accuse them of being a wolf partner; it destroys your credibility."
+      ],
+      "last_updated_game_id": "game_20260522_191407_a95c2f"
+    },
+    "werewolf": {
+      "role": "werewolf",
+      "total_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "strengths": [],
+      "pitfalls": [
+        "过度热情的表水（捧杀预言家）容易被识别为找神职的狼",
+        "在发言阶段主动攻击未暴露的玩家（如Gamma）容易制造不必要的敌人",
+        "投票阶段的情绪化发言（如'爱咋咋地'）是狼人自爆行为",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。"
+      ],
+      "signals_to_watch": [
+        "当金水（Epsilon）和神职（Zeta）同时站边打你时，说明你的伪装已经彻底失败",
+        "平民（Alpha）如果逻辑清晰地指出你的'冲锋'特征，必须立刻调整策略，不能硬刚",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。"
+      ],
+      "role_tips": [
+        "首夜刀人选择应基于逻辑而非直觉（如'名字顺眼'），优先刀闭眼玩家或发言强势的潜在神职",
+        "狼人发言应模仿平民的'观望'态度，不要急于站边或归票，保持模糊性更安全",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。"
+      ],
+      "recent_examples": [
+        "当好人（Alpha/Zeta）开始对你的发言逻辑进行围攻时，强行反驳或情绪化反击只会加速死亡，应尝试通过逻辑自洽或退让来缓解压力。",
+        "在队友（Gamma）还在场时，作为狼人首要任务是生存，而不是为了抢夺话语权而把自己变成焦点。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。",
+        "R1发言过度捧杀Delta并急于踩Gamma，被Alpha和Zeta识别为冲锋狼",
+        "R1投票阶段面对质疑时情绪失控，放弃辩解转为摆烂，导致被全票抗推",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "last_updated_game_id": "game_20260522_194350_6ca166"
+    },
+    "villager": {
+      "role": "villager",
+      "total_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "strengths": [],
+      "pitfalls": [
+        "Blind Obedience: Trusted Zeta's claim too easily, failing to consider a Gamma/Epsilon wolf team.",
+        "Premature Aggression: Attacked quiet players (Alpha, Epsilon) instead of analyzing their potential roles.",
+        "Lack of Independent Logic: Relied entirely on Zeta's information instead of forming own reads.",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。"
+      ],
+      "signals_to_watch": [
+        "The 'Bus' Signal: One wolf playing poorly (Epsilon) to clear another (Gamma).",
+        "The 'Saved Player' Dilemma: In the final 3, a player saved by the Witch (Gamma) may be mechanically cleared, but the Seer's claim (Zeta) must be weighed against that.",
+        "Witch Logic Failure: Delta (Witch) voted out the Seer (Zeta) because she believed Gamma (saved by her) was cleared. This is a critical signal to watch in future games.",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。"
+      ],
+      "role_tips": [
+        "As a Villager, your job is to find Wolves, not just follow the Seer. If the Seer is wrong or a Wolf, you lose.",
+        "In the early game, pressure 'cleared' players (Gamma) to ensure their logic holds up.",
+        "If you are dead, watch the final votes to understand where the logic broke down (e.g., Delta's mistake).",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。"
+      ],
+      "recent_examples": [
+        "R1: Blindly trusted Zeta's Seer claim and Gamma's 'Gold Water' status, leading to a vote on Epsilon.",
+        "R1: Aggressively silenced Alpha and Epsilon for being quiet, ignoring that silence is not a definitive wolf tell.",
+        "R2: Died at night, unable to participate in the final 3-player logic where Delta (Witch) incorrectly voted out Zeta (Seer).",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+        "Don't be a 'sheep'. Following the Seer blindly without questioning the cleared player's actions is a common Villager mistake.",
+        "The 'Wolf who was saved' (Gamma) is a powerful narrative. If a player is confirmed saved by the Witch, they are often mechanically cleared, but in this game, Delta (Witch) failed to see that Zeta was the real Seer."
+      ],
+      "last_updated_game_id": "game_20260522_195923_22ce5e"
+    }
+  },
+  "memory_version": 2
+}

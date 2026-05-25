@@ -1,0 +1,177 @@
+{
+  "agent_name": "Epsilon",
+  "personality": "",
+  "total_games": 3,
+  "wins": 2,
+  "losses": 1,
+  "lessons": [
+    {
+      "game_id": "game_20260522_191407_a95c2f",
+      "role": "villager",
+      "won": false,
+      "reflection": "This game was a quick loss due to a failure of information processing and board analysis. As a villager, I played too passively ('water-skimming'), which allowed the aggressive wolves to control the narrative and frame the real Seer (Zeta). I failed to recognize that Zeta's aggressive claim and Delta's eager agreement were likely a Wolf/Seer dynamic, instead getting stuck in the middle and eliminated early. 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1: Passive opening speech ('water-skimming') failed to provide value or establish a clear baseline, making me an easy target for Beta (Wolf) and Delta (Wolf) to push.",
+        "R1: Misread the interaction between Zeta (Seer) and Beta (Wolf); I failed to defend Zeta or pressure Delta sufficiently, allowing the wolves to dictate the vote.",
+        "R2: Died early, unable to participate in the critical endgame where the wolves successfully framed the real Seer.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 女巫x1 / 平民x2 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "Passive play leads to early death; Villagers must generate content to survive.",
+        "Aggressive attacks on a Seer claim by a 'confirmed' good player are a major red flag for a Wolf trying to frame the real Seer.",
+        "In a 3-player endgame, if the 'Seer' is alive and being voted out, verify the logic of the accusers before voting.",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260522_194350_6ca166",
+      "role": "guard",
+      "won": true,
+      "reflection": "本局守卫的胜利主要归功于女巫Zeta的强势带队和狼人Delta的严重失误（查杀银水）。我在R1的自守选择虽然导致了平安夜，但也让Delta的悍跳逻辑（金水+平安夜）看似成立，增加了前期的混乱。R2守Gamma的操作是正确的，保住了银水进入决赛圈。R3残局跳守卫的时机把握得当，利用平安夜逻辑压制了Gamma的悍跳猎人，最终配合女巫归票获胜。",
+      "key_moments": [
+        "R1 Night: 自守导致平安夜，无意中为Delta的悍跳提供了逻辑支撑，增加了好人方的判断难度。",
+        "R2 Night: 成功守护Gamma（银水），确保好人核心存活进入决赛圈。",
+        "R3 Day: 在三狼残局中果断起跳守卫，利用平安夜逻辑建立身份优势，成功识破Gamma的假猎人跳并完成归票。"
+      ],
+      "player_count": 6,
+      "role_config": "平民x1 / 狼人x2 / 预言家x1 / 守卫x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "守卫在首夜自守虽然稳健，但若造成平安夜，需警惕狼人利用此信息悍跳预言家发自己金水，形成逻辑闭环。",
+        "面对末局神职对跳（如猎人vs守卫），发言过于激进且急于归票的一方往往是狼人，因为好人神职更倾向于盘逻辑和求稳。"
+      ]
+    },
+    {
+      "game_id": "game_20260522_195923_22ce5e",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "虽然团队最终获胜，但我的个人表现极其糟糕，属于典型的'躺赢'。首日发言因划水被针对，随后的反击不仅逻辑薄弱，反而将自己置于被抗推的绝境，导致Gamma不得不独自面对残局。这局胜利完全归功于Gamma的悍跳能力和Delta对'银水'逻辑的盲目信任，我必须吸取教训，避免在未来的对局中成为团队的突破口。",
+      "key_moments": [
+        "R1 Discussion: 我试图通过攻击Alpha来转移视线，但Alpha的反击逻辑清晰，导致我暴露出'狼人找抗推位'的特征，被全场集火。",
+        "R2 Discussion: Gamma在残局成功利用Delta的'银水'身份，将Zeta的真预言家反打成'悍跳狼'，完成了绝地翻盘。"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 预言家x1 / 平民x1 / 女巫x1 / 守卫x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "作为狼人，首日发言不能划水，必须预先准备好逻辑闭环，避免因'卡顿'或'没抢到麦'这种低级理由被好人盘成狼坑。",
+        "在劣势局面下，盲目攻击其他潜水玩家（如Alpha）是高风险行为，必须确保对方无法进行有效反击，否则会加速自己的死亡。",
+        "观察并利用好人玩家的'死理'（如Delta坚信银水是好人）是残局翻盘的关键，Gamma正是利用了这一点击败了真预言家。"
+      ]
+    }
+  ],
+  "strategies": [
+    "Avoid 'water-skimming' (划水) as a villager; even with no information, you must take a stance or analyze others to avoid being an easy elimination target.",
+    "When a player claims Seer and is aggressively attacked by a confirmed 'Gold Water' (Beta), re-evaluate the Gold Water's status; it might be a wolf frame-up.",
+    "Analyze player pairs: If one player (Delta) blindly follows another (Zeta) without logic, consider the possibility of a Wolf/Wolf or Wolf/Seer connection rather than accepting it at face value.",
+    "长期记忆必须做结果校准：胜局经验才可谨慎强化；输局经验优先进入风险、误判和替代打法。",
+    "在残局（3人或4人）时，如果平安夜且自己有技能信息（如守卫），应优先起跳强神身份以获取话语权，而不是隐藏身份导致被动抗推。",
+    "当场上出现“预言家查杀”与“女巫银水”的对撞时，优先信任银水逻辑，因为狼人自刀骗药的概率极低且风险极大。",
+    "当场上出现'预言家查杀'与'女巫银水'的对撞时，优先信任银水逻辑，因为狼人自刀骗药的概率极低且风险极大。"
+  ],
+  "role_summaries": {
+    "villager": {
+      "role": "villager",
+      "total_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "strengths": [],
+      "pitfalls": [
+        "Playing too safely/passively ('water-skimming') makes you a low-hanging fruit for wolves to push.",
+        "Failing to defend a likely Seer (Zeta) against aggressive accusations allows wolves to control the vote.",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。"
+      ],
+      "signals_to_watch": [
+        "A 'Gold Water' (confirmed good) aggressively attacking a Seer claim without solid logic is a strong wolf tell.",
+        "Players who are too eager to agree with a Seer claim (Delta) might be wolves trying to blend in.",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。"
+      ],
+      "role_tips": [
+        "As a Villager, always take a stance or analyze at least one other player in your opening speech to avoid being seen as 'useless'.",
+        "If you see a Seer being hard-pushed, speak up to defend them or question the accusers; silence helps the wolves.",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。"
+      ],
+      "recent_examples": [
+        "R1: Passive opening speech ('water-skimming') failed to provide value or establish a clear baseline, making me an easy target for Beta (Wolf) and Delta (Wolf) to push.",
+        "R1: Misread the interaction between Zeta (Seer) and Beta (Wolf); I failed to defend Zeta or pressure Delta sufficiently, allowing the wolves to dictate the vote.",
+        "R2: Died early, unable to participate in the critical endgame where the wolves successfully framed the real Seer.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+        "Passive play leads to early death; Villagers must generate content to survive.",
+        "Aggressive attacks on a Seer claim by a 'confirmed' good player are a major red flag for a Wolf trying to frame the real Seer."
+      ],
+      "last_updated_game_id": "game_20260522_191407_a95c2f"
+    },
+    "guard": {
+      "role": "guard",
+      "total_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "strengths": [
+        "R2成功守护银水Gamma，为好人阵营保留了关键票数。",
+        "R3在关键时刻起跳守卫，利用平安夜实绩压制了悍跳狼，展现了残局的心理素质。"
+      ],
+      "pitfalls": [
+        "R1自守导致平安夜，虽然保住了自己，但也让Delta的悍跳逻辑（金水+平安夜）看似成立，增加了前期的混乱。",
+        "R2白天初期曾怀疑银水Gamma的逻辑，差点被Delta带偏节奏，需提高对银水身份的绝对信任度。"
+      ],
+      "signals_to_watch": [
+        "悍跳预言家查杀女巫银水是极其低级的失误，可作为判断狼队的铁证。",
+        "末局中，声称要“带队归票”且攻击性极强的神职跳，往往是狼人搏杀。"
+      ],
+      "role_tips": [
+        "守卫在残局不必过于隐藏，当场上逻辑混乱时，起跳守卫并利用平安夜信息可以快速理清局势。",
+        "守护目标的选择应优先考虑明面上的好人（如银水、金水），而不是盲目猜测狼刀。"
+      ],
+      "recent_examples": [
+        "守卫在首夜自守虽然稳健，但若造成平安夜，需警惕狼人利用此信息悍跳预言家发自己金水，形成逻辑闭环。",
+        "面对末局神职对跳（如猎人vs守卫），发言过于激进且急于归票的一方往往是狼人，因为好人神职更倾向于盘逻辑和求稳。",
+        "R1 Night: 自守导致平安夜，无意中为Delta的悍跳提供了逻辑支撑，增加了好人方的判断难度。",
+        "R2 Night: 成功守护Gamma（银水），确保好人核心存活进入决赛圈。",
+        "R3 Day: 在三狼残局中果断起跳守卫，利用平安夜逻辑建立身份优势，成功识破Gamma的假猎人跳并完成归票。"
+      ],
+      "last_updated_game_id": "game_20260522_194350_6ca166"
+    },
+    "werewolf": {
+      "role": "werewolf",
+      "total_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "strengths": [
+        "团队配合：在R1夜聊中，虽然我有不同意见，但最终选择听从Gamma的刀人建议，保持了狼团队行动的一致性，避免了分票。"
+      ],
+      "pitfalls": [
+        "发言逻辑漏洞：首日发言试图通过'踩Alpha'来洗清自己，但缺乏逻辑支撑，被Alpha反击后直接暴露狼面，导致被抗推出局。",
+        "被动防御：在被全场怀疑时，缺乏有力的辩解或悍跳准备，只能通过'咬死Alpha'做垂死挣扎，未能改变票型。"
+      ],
+      "signals_to_watch": [
+        "银水逻辑盲信：Delta作为女巫，对'救过的人'（Gamma）有着极高的信任度，甚至超过了真预言家的查验，这是好人阵营常见的逻辑漏洞。",
+        "划水惩罚：Beta和Delta等玩家对'不说话'或'划水'的玩家容忍度极低，会迅速将其视为狼坑进行攻击。"
+      ],
+      "role_tips": [
+        "首日发言准备：狼人必须准备好首日发言的'好人逻辑'，不能依赖临场发挥，更不能简单地攻击不说话的玩家。",
+        "抗推位选择：如果需要抗推，应选择逻辑有瑕疵或发言矛盾的玩家，而不是仅仅因为对方'不说话'就进行攻击，这样容易被反噬。"
+      ],
+      "recent_examples": [
+        "作为狼人，首日发言不能划水，必须预先准备好逻辑闭环，避免因'卡顿'或'没抢到麦'这种低级理由被好人盘成狼坑。",
+        "在劣势局面下，盲目攻击其他潜水玩家（如Alpha）是高风险行为，必须确保对方无法进行有效反击，否则会加速自己的死亡。",
+        "观察并利用好人玩家的'死理'（如Delta坚信银水是好人）是残局翻盘的关键，Gamma正是利用了这一点击败了真预言家。",
+        "R1 Discussion: 我试图通过攻击Alpha来转移视线，但Alpha的反击逻辑清晰，导致我暴露出'狼人找抗推位'的特征，被全场集火。",
+        "R2 Discussion: Gamma在残局成功利用Delta的'银水'身份，将Zeta的真预言家反打成'悍跳狼'，完成了绝地翻盘。"
+      ],
+      "last_updated_game_id": "game_20260522_195923_22ce5e"
+    }
+  },
+  "memory_version": 2
+}

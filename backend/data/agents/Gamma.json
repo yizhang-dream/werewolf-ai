@@ -1,0 +1,167 @@
+{
+  "agent_name": "Gamma",
+  "personality": "",
+  "total_games": 3,
+  "wins": 1,
+  "losses": 2,
+  "lessons": [
+    {
+      "game_id": "game_20260522_191407_a95c2f",
+      "role": "villager",
+      "won": false,
+      "reflection": "I fell into a passive mindset by accepting Zeta's claim too easily and failing to analyze the behavioral inconsistencies between Delta and Beta. In the final three, I should have recognized that Delta's overly enthusiastic agreement with Zeta was a tactical alignment to secure a lynch, whereas Beta's aggressive resistance was a desperate town response. My failure to vote or speak up in the final round allowed the wolves to control the narrative and eliminate the Witch. 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "Round 1: Accepted Zeta's Seer claim and Beta's Gold Water status without questioning the lack of counter-claims or pressure.",
+        "Round 1: Allowed Delta to frame me and Epsilon without defending myself or probing Delta's intent.",
+        "Round 2: Failed to act or vote in the 3-player finale, letting Zeta and Delta lynch Beta, the Witch.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 女巫x1 / 平民x2 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "When a player is 'saved' by a Seer claim in a 3-player setup, check if their behavior shifts from defensive to overly offensive (wolf signal).",
+        "A player who is aggressively attacked by a confirmed Seer (like Beta) is often a Town power role trying to survive, not a wolf.",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260522_194350_6ca166",
+      "role": "werewolf",
+      "won": false,
+      "reflection": "本局作为狼人，我在R1成功利用Beta的聊爆行为隐身，但在R2面对Delta的悍跳查杀时，虽然依靠Zeta女巫的银水身份存活，却未能利用这一机会建立更深的好人逻辑。R3残局中，面对双神（女巫+守卫）起跳，我选择悍跳猎人进行搏杀，但未能构建出足以动摇Zeta信任的逻辑，最终被票出。失败的核心在于残局对神职配置的预判不足，以及在R2获得银水身份后未能有效做高自己的好人面，导致R3发言可信度不足。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1 Beta情绪化发言导致全场抗推，我顺势切割并归票Beta，成功隐藏身份进入R2。",
+        "R2 Delta悍跳预言家查杀我，Zeta跳女巫报我银水，我利用银水身份反打Delta，成功存活。",
+        "R3残局面对Zeta（女巫）和Epsilon（守卫），我选择悍跳猎人试图抗推Epsilon，但因逻辑漏洞被识破并出局。",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "平民x1 / 狼人x2 / 预言家x1 / 守卫x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "village",
+      "useful_takeaways": [
+        "狼人残局（3人）面对双神（女巫+守卫）时，悍跳猎人属于高风险低收益策略，因为守卫可以自守，女巫只需站边守卫即可稳赢，此时应尝试倒钩或寻找逻辑漏洞。",
+        "作为狼人获得银水身份时，应利用'银水'的高身份在白天带节奏，而不是仅仅作为防御手段，R2我本可以尝试带队做高Epsilon或Zeta的身份以备R3。",
+        "R1 Beta聊爆时，我的切割决策是正确的，但在R2 Delta悍跳时，我应意识到Delta可能是试图换命的狼，需更早布局R3的生存逻辑。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260522_195923_22ce5e",
+      "role": "werewolf",
+      "won": true,
+      "reflection": "本局获胜主要归功于Delta（女巫）在R2的关键倒钩，以及Zeta（预言家）在R2的验人失误（未验女巫），而非我的狼人博弈技巧。R1我获得'银水'身份是巨大优势，但我R2的发言逻辑依然薄弱，未能主动利用'银水'身份去攻击Zeta的盲验漏洞，而是被动防御，差点导致崩盘。R1投票Epsilon虽然赢了，但属于'卖队友'行为，在Epsilon发言较差的情况下是可行的，但也暴露了我的激进面。",
+      "key_moments": [
+        "R1平安夜获得Delta女巫的解药，成为'银水'，身份极高",
+        "R1投票阶段果断卖掉发言聊爆的队友Epsilon，坐实自己好人身份",
+        "R2面对Zeta的查杀，未能有效利用'银水'逻辑反打，发言处于下风",
+        "R2 Delta女巫因Zeta不验她而愤怒，选择倒钩狼人，导致好人阵营分裂"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 预言家x1 / 平民x1 / 女巫x1 / 守卫x1",
+      "rounds_played": 2,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "银水狼人被查杀时，必打预言家验人逻辑差（不验女巫验银水）",
+        "残局发言要抓住神职的逻辑漏洞，而不是单纯喊冤",
+        "卖队友需果断，但要注意后续的票型逻辑闭环"
+      ]
+    }
+  ],
+  "strategies": [
+    "In end-game scenarios with a claimed Seer, analyze the voting history and behavioral consistency of all living players, not just the claim.",
+    "Do not let aggressive players (like Delta) dictate the logic without challenging their premises.",
+    "长期记忆必须做结果校准：胜局经验才可谨慎强化；输局经验优先进入风险、误判和替代打法。",
+    "In end-game scenarios with multiple claimed gods, do not fake claim a role (Hunter) that requires the opponent to make a high-risk decision (believing you over a confirmed Guard/Witch); instead, focus on behavioral inconsistencies.",
+    "When receiving a 'Silver Water' (Witch save) identity as a Werewolf, use the night phase to actively frame a confirmed Villager or Seer claim rather than passively accepting the safety.",
+    "When receiving 'Silver Water' (Witch save), do not just play passively. Proactively use the 'Witch saved me' fact to question the Seer's logic if they accuse you (e.g., 'Why check the saved person instead of the Witch claim?').",
+    "In end-game (3 players), if the Seer claims a 'check' on you and the Witch is alive, the Seer is usually lying unless the Witch is confirmed bad. Always attack the Seer's logic of checking a 'confirmed good' Silver Water over the Witch claim.",
+    "Winning a game due to opponent errors (Witch flip) does not validate poor individual defense. Analyze why the defense was weak despite the win."
+  ],
+  "role_summaries": {
+    "villager": {
+      "role": "villager",
+      "total_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "strengths": [],
+      "pitfalls": [
+        "Passive play: Accepting claims without pressure allows wolves to dictate the game.",
+        "Failure to defend: Letting others frame you without response leads to being an easy mislynch target.",
+        "Ignoring end-game tells: In 3-player setups, failing to vote or speak up guarantees a loss.",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。"
+      ],
+      "signals_to_watch": [
+        "Overly enthusiastic agreement with a Seer claim in the final rounds (Delta's behavior).",
+        "Aggressive resistance to a Seer claim when the accused is a power role (Beta's behavior).",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。"
+      ],
+      "role_tips": [
+        "Always vote in the final round; silence leads to defeat.",
+        "Challenge the logic of players who are too easily 'cleared' by a claim.",
+        "Defend yourself when framed, even if you think it might make you look defensive.",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。"
+      ],
+      "recent_examples": [
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。",
+        "Round 1: Accepted Zeta's Seer claim and Beta's Gold Water status without questioning the lack of counter-claims or pressure.",
+        "Round 1: Allowed Delta to frame me and Epsilon without defending myself or probing Delta's intent.",
+        "Round 2: Failed to act or vote in the 3-player finale, letting Zeta and Delta lynch Beta, the Witch.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+        "When a player is 'saved' by a Seer claim in a 3-player setup, check if their behavior shifts from defensive to overly offensive (wolf signal)."
+      ],
+      "last_updated_game_id": "game_20260522_191407_a95c2f"
+    },
+    "werewolf": {
+      "role": "werewolf",
+      "total_games": 2,
+      "wins": 1,
+      "losses": 1,
+      "strengths": [
+        "R1果断卖掉发言聊爆的队友Epsilon，利用其划水踩人的行为成功将其抗推，坐实了自己的好人身份"
+      ],
+      "pitfalls": [
+        "R2获得银水身份后，未能有效利用'银水'身份做高自己的好人面，导致R3发言可信度不足。",
+        "R3夜刀选择Zeta（女巫）而非Epsilon（守卫），未能考虑到守卫可能自守的情况，错失胜利机会。",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。",
+        "R2获得银水身份后，面对查杀未能第一时间利用'银水'优势反打预言家逻辑漏洞，发言过于被动和情绪化，差点导致被票出",
+        "R2夜刀选择Alpha（平民）而非Zeta（预言家）或Delta（女巫），虽然获胜，但刀神职是更稳健的赢法，刀平民存在被女巫盲毒或预言家带队风险",
+        "R1夜聊中与队友意见不合（想刀Beta vs 刀Delta），虽然坚持己见，但缺乏对队友意图的深度分析"
+      ],
+      "signals_to_watch": [
+        "当对手（如Delta）悍跳预言家查杀自己时，若场上有女巫跳出发银水，可利用银水身份反打。",
+        "残局时，若对手起跳守卫并声称要自守，需警惕其自守逻辑，优先刀女巫或预言家。",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。",
+        "当女巫（Delta）因预言家不验她而产生情绪时，是狼人拉票的关键信号",
+        "当预言家在残局不验疑似女巫的牌，而验银水时，预言家大概率是悍跳或逻辑混乱",
+        "队友（Epsilon）在白天划水且乱踩好人时，是卖队友的最佳时机"
+      ],
+      "role_tips": [
+        "狼人获得银水身份后，应在白天积极带队，利用'银水'身份压制对手，而不是被动防御。",
+        "狼人悍跳神职时，需确保逻辑闭环，避免在双神在场的情况下悍跳猎人，因为猎人开枪带人需要极高的信任度。",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。",
+        "银水狼人被查杀时，必打预言家验人逻辑差（不验女巫验银水），这是最强的反击点",
+        "残局刀人优先级：预言家 > 女巫 > 猎人 > 平民，优先处理有验人信息的神职",
+        "卖队友要趁早，在队友发言聊爆的第一时间跟进踩死，不要犹豫"
+      ],
+      "recent_examples": [
+        "卖队友需果断，但要注意后续的票型逻辑闭环",
+        "R1平安夜获得Delta女巫的解药，成为'银水'，身份极高",
+        "R1投票阶段果断卖掉发言聊爆的队友Epsilon，坐实自己好人身份",
+        "R2面对Zeta的查杀，未能有效利用'银水'逻辑反打，发言处于下风",
+        "R2 Delta女巫因Zeta不验她而愤怒，选择倒钩狼人，导致好人阵营分裂",
+        "银水狼人被查杀时，必打预言家验人逻辑差（不验女巫验银水）"
+      ],
+      "last_updated_game_id": "game_20260522_195923_22ce5e"
+    }
+  },
+  "memory_version": 2
+}

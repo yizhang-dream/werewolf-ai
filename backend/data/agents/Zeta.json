@@ -1,0 +1,160 @@
+{
+  "agent_name": "Zeta",
+  "personality": "",
+  "total_games": 3,
+  "wins": 1,
+  "losses": 2,
+  "lessons": [
+    {
+      "game_id": "game_20260522_191407_a95c2f",
+      "role": "seer",
+      "won": false,
+      "reflection": "I lost because I failed to maintain a consistent reality between my internal logic and my public statements, leading to a fatal contradiction. In Round 1, I publicly declared Beta as a 'Gold Water' (confirmed good), but in Round 2, I suddenly claimed the wolf was in Beta and Delta, directly contradicting my earlier clearance of Beta. This inconsistency made me look like a confused wolf or a liar to Beta, causing me to lose the critical 1v1 vote. To improve, I must strictly track my public claims and ensure my late-game logic aligns perfectly with my early-game information. 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1: Publicly cleared Beta as 'Gold Water' to establish a baseline.",
+        "R2: Contradicted myself by accusing Beta (a cleared player) of being a wolf, destroying my credibility.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 女巫x1 / 平民x2 / 预言家x1",
+      "rounds_played": 2,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "Never clear a player in Round 1 if you intend to push them in Round 2 without new, undeniable evidence.",
+        "When the Witch is dead, claiming a player is the Witch to save them from a vote is a high-risk play that requires perfect consistency.",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    },
+    {
+      "game_id": "game_20260522_194350_6ca166",
+      "role": "witch",
+      "won": true,
+      "reflection": "本局女巫打法稳健，首夜盲救成功建立好人优势，次轮利用银水身份强势反打悍跳狼Delta，逻辑闭环清晰。但在R3残局处理上存在侥幸心理，未在N2对Epsilon进行毒杀或验人，导致R3陷入'双神对跳'的被动猜局。虽然最终依靠逻辑归票获胜，但R3的决策链条过于依赖发言状态而非硬逻辑，未来需优化残局的控场能力。",
+      "key_moments": [
+        "R1 Night: 盲救Delta（实际救了Gamma，复盘发现Inner thought与实际结果有偏差，但盲救策略本身正确）",
+        "R2 Day: 强势跳女巫报Gamma银水，利用'查杀银水'的铁逻辑直接归票Delta",
+        "R3 Night: 在局势未明时选择不毒，将胜负交给白天的发言博弈"
+      ],
+      "player_count": 6,
+      "role_config": "平民x1 / 狼人x2 / 预言家x1 / 守卫x1 / 女巫x1",
+      "rounds_played": 3,
+      "survived_to_end": true,
+      "final_status": "alive",
+      "winner": "village",
+      "useful_takeaways": [
+        "女巫在首夜盲救后，若次日出现平安夜，需明确区分是'守卫守护'还是'狼人自刀'，这直接影响对银水身份的信任度。",
+        "面对'预言家查杀银水'的极端情况，应毫不犹豫地站边银水并反打预言家，这是收益最高的操作。",
+        "在3人残局中，若自己为神职，对方一人跳神职、一人身份不明，优先处理那个'试图通过施压来控票'的玩家，因为他往往是狼人悍跳。"
+      ]
+    },
+    {
+      "game_id": "game_20260522_195923_22ce5e",
+      "role": "seer",
+      "won": false,
+      "reflection": "我输掉了比赛，核心原因在于R1查验Gamma为好人后，R2却违背自己的查验结果报出Gamma查杀，这种前后矛盾直接导致我在逻辑上破产。Gamma作为金水，在R2被女巫救活后身份极高，我本应利用这一信息锁定狼坑，却因记忆混乱或判断失误攻击了全场身份最高的人，最终被女巫Delta反水投出。这局暴露了严重的状态管理和逻辑自洽问题。 结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。",
+      "key_moments": [
+        "R1 Seer Check: Verified Gamma as Good (Gold Water).",
+        "R2 Seer Check: Verified Delta as Good.",
+        "R2 Day: Falsely claimed Gamma was a Wolf (contradicting R1 check), leading to being voted out by the Witch Delta.",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "player_count": 6,
+      "role_config": "狼人x2 / 预言家x1 / 平民x1 / 女巫x1 / 守卫x1",
+      "rounds_played": 2,
+      "survived_to_end": false,
+      "final_status": "dead",
+      "winner": "werewolf",
+      "useful_takeaways": [
+        "预言家的信用建立在'逻辑一致性'之上。一旦出现前后矛盾（如金水变查杀），无论发言多么强势，都会被好人阵营视为悍跳狼。",
+        "在残局（3人局）中，女巫的银水信息（救人记录）权重极高。试图挑战银水+金水的双重身份是自杀行为。",
+        "当场上出现'女巫救金水'的强逻辑链时，预言家应顺势而为，将狼坑锁定在剩余未明身份的玩家中，而不是试图推翻已有的好人逻辑。",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。"
+      ]
+    }
+  ],
+  "strategies": [
+    "Maintain a 'Truth Table' of public claims to prevent late-game contradictions.",
+    "In endgame (3 players), prioritize the logic of 'Process of Elimination' over aggressive accusations if your own claims are the limiting factor.",
+    "长期记忆必须做结果校准：胜局经验才可谨慎强化；输局经验优先进入风险、误判和替代打法。",
+    "残局（3人局）时，若女巫存活且有毒药，必须重新审视'平安夜'的逻辑。若场上存在'守卫'声称平安夜，需警惕'狼人悍跳守卫'的剧本，此时应优先毒杀逻辑漏洞较大或无实锤的玩家，而非留毒过夜。",
+    "建立'实锤优先'原则：在R2/R3阶段，银水、金水等硬身份信息的权重高于发言状态，避免被狼人的'情绪表演'误导。",
+    "建立'金水绝对保护'原则：一旦报出金水，除非有确凿证据（如被查杀的狼王自爆带走金水或极其特殊的倒钩逻辑），否则在后续发言中必须将金水视为铁好人，严禁在无新信息的情况下反水咬金水。",
+    "强化'平安夜'逻辑推演：R1平安夜且女巫救人的情况下，被救玩家（Gamma）身份极高。R2若要指控该玩家，必须先解释为何女巫会救狼人，否则指控不成立。",
+    "完善'预言家验人'策略：在R1验出金水且平安夜的情况下，R2的查验目标应优先针对未明身份的玩家（如Epsilon或Alpha），而非重复查验已确认身份或逻辑闭环的玩家，以避免信息浪费。"
+  ],
+  "role_summaries": {
+    "seer": {
+      "role": "seer",
+      "total_games": 2,
+      "wins": 0,
+      "losses": 2,
+      "strengths": [],
+      "pitfalls": [
+        "Contradicting previous clearance (金水): Accusing a player previously verified as good without explanation.",
+        "Memory Lapse: Forgetting public statements made in earlier rounds.",
+        "在失败局中把主观自信、强势发言或主动操作误判为高光，会污染长期记忆并重复同类错误。",
+        "Memory Lapse: 严重失误，R2完全忘记了R1对Gamma的查验结果，导致自爆狼人面。",
+        "逻辑崩盘：在R2试图攻击全场身份最高的玩家（金水+银水），导致被女巫反水抗推。",
+        "沟通失效：未能有效利用R2对Delta的查验结果（好人）来拉票，反而因攻击Gamma导致Delta彻底倒向狼人。"
+      ],
+      "signals_to_watch": [
+        "Player Inconsistency: Watch for players who change their stance on cleared players, as it often indicates a lie.",
+        "如果一局最终失败，所有曾被自己认为正确的关键操作都需要重新校验其真实收益。",
+        "Self-Inconsistency: 自我矛盾是狼人的典型特征，预言家必须时刻保持发言与之前行为的绝对一致。",
+        "Witch Behavior: 女巫在知道自己救了谁的情况下，会极度维护被救者。攻击被救者会直接触发女巫的敌意。",
+        "Endgame Dynamics: 在3人局中，如果女巫活着且有人声称被救，攻击被救者几乎必输。"
+      ],
+      "role_tips": [
+        "Keep a written or mental log of exactly what you said about each player every round.",
+        "If you clear someone, stick to that read unless you are 100% sure they are a Wolf King (special mode) or you made a previous error.",
+        "失败后复盘不要问“我哪里打得帅”，而要问：哪一步判断没有被结果支持、下次如何用票型/发言/技能信息提前纠偏。",
+        "Keep a written or mental log: 必须强制记录每晚的查验结果，并在发言前核对，杜绝'金水变查杀'的低级错误。",
+        "Trust your checks: 如果验出某人是好人，就坚定不移地相信他，直到游戏结束或有不可辩驳的反证。",
+        "Leverage Witch claims: 如果女巫跳出来报银水，且银水是你的金水，立即锁死该玩家身份，集中火力攻击剩余玩家。"
+      ],
+      "recent_examples": [
+        "当场上出现'女巫救金水'的强逻辑链时，预言家应顺势而为，将狼坑锁定在剩余未明身份的玩家中，而不是试图推翻已有的好人逻辑。",
+        "R1 Seer Check: Verified Gamma as Good (Gold Water).",
+        "R2 Seer Check: Verified Delta as Good.",
+        "R2 Day: Falsely claimed Gamma was a Wolf (contradicting R1 check), leading to being voted out by the Witch Delta.",
+        "输局复盘默认是负反馈：先找导致失败的判断链、票型选择、技能使用和节奏决策，再提出下次可验证的替代打法。",
+        "结果校准：这是一局失败样本，本局自信的发言、投票和技能选择都应优先作为负反馈审计，不能直接沉淀为高光或稳定优势。"
+      ],
+      "last_updated_game_id": "game_20260522_195923_22ce5e"
+    },
+    "witch": {
+      "role": "witch",
+      "total_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "strengths": [
+        "首夜盲救决策果断，成功保下关键神职（Gamma），为好人阵营奠定人数优势。",
+        "R2发言强势，利用'银水'身份牌精准识别并击杀悍跳狼（Delta），逻辑压制力强。"
+      ],
+      "pitfalls": [
+        "R2夜晚过于保守，在已有明确狼坑（Delta）且局势混乱（Epsilon站边狼）的情况下，未使用毒药扩大优势，导致R3局面复杂化。",
+        "R3逻辑判断出现摇摆，险些被Gamma的猎人跳象迷惑，过度依赖发言而非身份逻辑进行排坑。"
+      ],
+      "signals_to_watch": [
+        "狼人（如Delta）在被归票前的垂死挣扎逻辑（如'自刀骗药'），这是确认狼身份的强信号。",
+        "残局中悍跳狼（如Gamma）往往表现出'急于归票'和'威胁性发言'（如'出完他我带谁'），而非冷静分析。"
+      ],
+      "role_tips": [
+        "毒药使用时机：当场上出现'预言家查杀银水'或'多神对跳'时，若能确定一狼，应果断毒杀其潜在队友或逻辑最差者，避免进入被动猜局。",
+        "残局心态：作为女巫进入决赛圈，若自己身份已明，应利用'好人排坑'的逻辑引导投票，而非单纯听信对方的跳辩。"
+      ],
+      "recent_examples": [
+        "女巫在首夜盲救后，若次日出现平安夜，需明确区分是'守卫守护'还是'狼人自刀'，这直接影响对银水身份的信任度。",
+        "面对'预言家查杀银水'的极端情况，应毫不犹豫地站边银水并反打预言家，这是收益最高的操作。",
+        "在3人残局中，若自己为神职，对方一人跳神职、一人身份不明，优先处理那个'试图通过施压来控票'的玩家，因为他往往是狼人悍跳。",
+        "R1 Night: 盲救Delta（实际救了Gamma，复盘发现Inner thought与实际结果有偏差，但盲救策略本身正确）",
+        "R2 Day: 强势跳女巫报Gamma银水，利用'查杀银水'的铁逻辑直接归票Delta",
+        "R3 Night: 在局势未明时选择不毒，将胜负交给白天的发言博弈"
+      ],
+      "last_updated_game_id": "game_20260522_194350_6ca166"
+    }
+  },
+  "memory_version": 2
+}
